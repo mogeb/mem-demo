@@ -1,0 +1,1121 @@
+# tracer: nop
+#
+# entries-in-buffer/entries-written: 1110/1110   #P:8
+#
+#                              _-----=> irqs-off
+#                             / _----=> need-resched
+#                            | / _---=> hardirq/softirq
+#                            || / _--=> preempt-depth
+#                            ||| /     delay
+#           TASK-PID   CPU#  ||||    TIMESTAMP  FUNCTION
+#              | |       |   ||||       |         |
+        run.bash-12490 [001] .... 43472.668011: mm_page_alloc: page=0000000017f3d7c5 pfn=1062776 order=1 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.668024: mm_page_alloc: page=00000000e534fe0e pfn=2133973 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.668026: mm_page_alloc: page=000000006cfdb727 pfn=2910019 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.668028: mm_page_alloc: page=0000000016d26eff pfn=2787912 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.668037: mm_page_alloc: page=000000001076e827 pfn=6336111 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.668043: mm_page_alloc: page=00000000862c4ff5 pfn=2258075 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.668044: mm_page_alloc: page=00000000d37450d0 pfn=2428092 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.668045: mm_page_alloc: page=00000000c61f970b pfn=1435423 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.668052: mm_page_alloc: page=000000003151812b pfn=2768995 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.668081: mm_page_alloc: page=000000009a3e54bd pfn=5898515 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.668082: mm_page_alloc: page=000000005ba8b5fb pfn=2237989 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.668084: mm_page_alloc: page=00000000f877605f pfn=1054139 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.668114: mm_page_alloc: page=00000000cbf20dc8 pfn=5703511 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12491 [006] .... 43472.668119: mm_page_alloc: page=00000000e4ddd8ba pfn=2232889 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.668122: mm_page_alloc: page=000000005030eedf pfn=6383474 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.668127: mm_page_alloc: page=000000007d56c4cc pfn=2217008 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.668133: mm_page_alloc: page=00000000d5b8dccd pfn=3224973 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.668138: mm_page_alloc: page=000000003f8a7ae7 pfn=3330467 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12491 [006] .... 43472.668140: mm_page_alloc: page=000000006ab6d327 pfn=2321811 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.668143: mm_page_alloc: page=000000006b7dfe6e pfn=2717018 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.668150: mm_page_alloc: page=00000000ccbf25ee pfn=1334695 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.668155: mm_page_alloc: page=000000000e92af61 pfn=1841677 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.668162: mm_page_alloc: page=00000000a314df5e pfn=2534181 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.668166: mm_page_alloc: page=00000000b57f8226 pfn=1839286 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.668171: mm_page_alloc: page=0000000063a7bcf9 pfn=1995671 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.668176: mm_page_alloc: page=000000003d152e54 pfn=5765250 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.668181: mm_page_alloc: page=000000000d9c40e7 pfn=1238573 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12491 [006] .... 43472.668184: mm_page_alloc: page=000000003108004e pfn=1691307 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.668194: mm_page_alloc: page=000000008cc6a365 pfn=5667252 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12491 [006] .... 43472.668195: mm_page_alloc: page=00000000229f7a84 pfn=1869809 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.668197: mm_page_free: page=000000004313750a pfn=1867021 order=0
+           sleep-12491 [006] .... 43472.668245: mm_page_alloc: page=0000000095120d13 pfn=5765376 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12491 [006] .... 43472.668299: mm_page_alloc: page=00000000a9a144db pfn=6567806 order=1 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12491 [006] .... 43472.668379: mm_page_alloc: page=000000008489178d pfn=2763427 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12491 [006] .... 43472.668381: mm_page_alloc: page=000000001424651d pfn=6351248 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12491 [006] .... 43472.668383: mm_page_alloc: page=00000000e104fc11 pfn=1630998 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12491 [006] .... 43472.668385: mm_page_alloc: page=00000000ff852a66 pfn=2841682 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           sleep-12491 [006] .... 43472.668423: mm_page_alloc: page=000000001fb1d251 pfn=3037466 order=0 migratetype=0 gfp_flags=GFP_NOWAIT|__GFP_NOWARN
+           sleep-12491 [006] .... 43472.668482: mm_page_free: page=000000009a3e54bd pfn=5898515 order=0
+           sleep-12491 [006] .... 43472.668483: mm_page_free: page=000000005ba8b5fb pfn=2237989 order=0
+           sleep-12491 [006] .... 43472.668483: mm_page_free: page=00000000f877605f pfn=1054139 order=0
+           sleep-12491 [006] .... 43472.668484: mm_page_free: page=00000000862c4ff5 pfn=2258075 order=0
+           sleep-12491 [006] .... 43472.668484: mm_page_free: page=00000000d37450d0 pfn=2428092 order=0
+           sleep-12491 [006] .... 43472.668484: mm_page_free: page=000000003151812b pfn=2768995 order=0
+           sleep-12491 [006] .... 43472.668484: mm_page_free: page=00000000c61f970b pfn=1435423 order=0
+           sleep-12491 [006] .... 43472.668485: mm_page_free: page=00000000e534fe0e pfn=2133973 order=0
+           sleep-12491 [006] .... 43472.668485: mm_page_free: page=000000006cfdb727 pfn=2910019 order=0
+           sleep-12491 [006] .... 43472.668485: mm_page_free: page=000000001076e827 pfn=6336111 order=0
+           sleep-12491 [006] .... 43472.668486: mm_page_free: page=0000000016d26eff pfn=2787912 order=0
+           sleep-12491 [006] .... 43472.668486: mm_page_free: page=00000000ce24281d pfn=2225821 order=0
+           sleep-12491 [006] .... 43472.668486: mm_page_free: page=000000003108004e pfn=1691307 order=0
+           sleep-12491 [006] .... 43472.668487: mm_page_free: page=000000006ab6d327 pfn=2321811 order=0
+           sleep-12491 [006] .... 43472.668487: mm_page_free: page=00000000e4ddd8ba pfn=2232889 order=0
+           sleep-12491 [006] .... 43472.668487: mm_page_free: page=00000000d9f3b363 pfn=1823040 order=0
+           sleep-12491 [006] .... 43472.668487: mm_page_free: page=00000000229f7a84 pfn=1869809 order=0
+           sleep-12491 [006] .... 43472.668488: mm_page_free: page=000000002ec747d1 pfn=5948850 order=0
+           sleep-12491 [006] .... 43472.668488: mm_page_free: page=0000000095120d13 pfn=5765376 order=0
+           sleep-12491 [006] .... 43472.668488: mm_page_free: page=00000000b2cee7ce pfn=2877135 order=0
+           sleep-12491 [006] .... 43472.668488: mm_page_free: page=0000000075aac49c pfn=1598104 order=0
+           sleep-12491 [006] .... 43472.668489: mm_page_free: page=000000008a13c27e pfn=2123273 order=0
+           sleep-12491 [006] .... 43472.668489: mm_page_free: page=00000000750941c6 pfn=6467801 order=0
+           sleep-12491 [006] .... 43472.668489: mm_page_free: page=00000000c601f736 pfn=1892893 order=0
+           sleep-12491 [006] .... 43472.668500: mm_page_free: page=000000001fb1d251 pfn=3037466 order=0
+           sleep-12491 [006] .... 43472.668510: mm_page_free: page=0000000017f3d7c5 pfn=1062776 order=1
+           sleep-12491 [006] .... 43472.668524: mm_page_alloc: page=000000001fb1d251 pfn=3037466 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12491 [006] .... 43472.668525: mm_page_alloc: page=0000000016d26eff pfn=2787912 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12491 [006] .... 43472.668529: mm_page_free: page=000000001424651d pfn=6351248 order=0
+           sleep-12491 [006] .... 43472.668529: mm_page_free: page=00000000e104fc11 pfn=1630998 order=0
+           sleep-12491 [006] .... 43472.668550: mm_page_alloc: page=00000000e104fc11 pfn=1630998 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12491 [006] .... 43472.668551: mm_page_alloc: page=000000001424651d pfn=6351248 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12491 [006] .... 43472.668552: mm_page_alloc: page=00000000c601f736 pfn=1892893 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12491 [006] .... 43472.668554: mm_page_alloc: page=000000001076e827 pfn=6336111 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12491 [006] .... 43472.668578: mm_page_alloc: page=000000006cfdb727 pfn=2910019 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12491 [006] .... 43472.668580: mm_page_alloc: page=00000000e534fe0e pfn=2133973 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12491 [006] .... 43472.668580: mm_page_alloc: page=00000000750941c6 pfn=6467801 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12491 [006] .... 43472.668582: mm_page_alloc: page=00000000c61f970b pfn=1435423 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12491 [006] .... 43472.668609: mm_page_alloc: page=000000008a13c27e pfn=2123273 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12491 [006] .... 43472.668622: mm_page_alloc: page=0000000075aac49c pfn=1598104 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           sleep-12491 [006] .... 43472.668631: mm_page_alloc: page=00000000b2cee7ce pfn=2877135 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           sleep-12491 [006] .... 43472.668659: mm_page_alloc: page=0000000095120d13 pfn=5765376 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12491 [006] .... 43472.668755: mm_page_alloc: page=000000002ec747d1 pfn=5948850 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           sleep-12491 [006] .... 43472.668759: mm_page_alloc: page=00000000229f7a84 pfn=1869809 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           sleep-12491 [006] .... 43472.668810: mm_page_alloc: page=00000000d9f3b363 pfn=1823040 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12491 [006] .... 43472.668826: mm_page_alloc: page=00000000e4ddd8ba pfn=2232889 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12491 [006] .... 43472.668833: mm_page_alloc: page=000000003151812b pfn=2768995 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12491 [006] .... 43472.668856: mm_page_alloc: page=000000006ab6d327 pfn=2321811 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           sleep-12491 [006] .... 43472.668861: mm_page_alloc: page=000000003108004e pfn=1691307 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12491 [006] .... 43472.668867: mm_page_alloc: page=00000000ce24281d pfn=2225821 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12491 [006] .... 43472.668873: mm_page_alloc: page=00000000bf8f4ba1 pfn=2045472 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12491 [006] .... 43472.668879: mm_page_alloc: page=00000000346ef2a0 pfn=1075483 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12491 [006] .... 43472.669003: mm_page_alloc: page=00000000d37450d0 pfn=2428092 order=0 migratetype=0 gfp_flags=GFP_NOWAIT|__GFP_NOWARN
+           sleep-12491 [006] .... 43472.669019: mm_page_free: page=00000000d37450d0 pfn=2428092 order=0
+           sleep-12491 [006] .... 43472.669032: mm_page_alloc: page=000000007552086a pfn=6448848 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           sleep-12491 [006] .... 43472.669036: mm_page_alloc: page=00000000288665a9 pfn=2969680 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           sleep-12491 [006] .... 43472.669158: mm_page_alloc: page=000000003f2242cc pfn=2017196 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           sleep-12491 [006] .... 43472.669171: mm_page_alloc: page=00000000d37450d0 pfn=2428092 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12491 [006] .... 43472.669173: mm_page_alloc: page=000000006c2bbc93 pfn=6046053 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           sleep-12491 [006] .... 43472.669196: mm_page_alloc: page=00000000862c4ff5 pfn=2258075 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12491 [006] .... 43472.669207: mm_page_alloc: page=00000000f877605f pfn=1054139 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12491 [006] .... 43472.669220: mm_page_alloc: page=000000005ba8b5fb pfn=2237989 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12491 [006] .... 43472.669276: mm_page_alloc: page=00000000512bc04b pfn=1090519 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+     openconnect-10127 [001] .... 43472.751639: mm_page_free: page=00000000e5115c40 pfn=6113786 order=0
+            code-11500 [003] .... 43472.751845: mm_page_alloc: page=00000000ce8b8006 pfn=6152916 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11500 [003] .... 43472.751948: mm_page_free: page=00000000ce8b8006 pfn=6152916 order=0
+           sleep-12491 [006] .... 43472.769769: mm_page_alloc: page=000000009a3e54bd pfn=5898515 order=0 migratetype=0 gfp_flags=GFP_NOWAIT|__GFP_NOWARN
+           sleep-12491 [006] .... 43472.769952: mm_page_free: page=000000008489178d pfn=2763427 order=0
+           sleep-12491 [006] .... 43472.769954: mm_page_free: page=000000001fb1d251 pfn=3037466 order=0
+           sleep-12491 [006] .... 43472.769955: mm_page_free: page=0000000016d26eff pfn=2787912 order=0
+           sleep-12491 [006] .... 43472.769955: mm_page_free: page=00000000e104fc11 pfn=1630998 order=0
+           sleep-12491 [006] .... 43472.769956: mm_page_free: page=000000001424651d pfn=6351248 order=0
+           sleep-12491 [006] .... 43472.769957: mm_page_free: page=00000000d37450d0 pfn=2428092 order=0
+           sleep-12491 [006] .... 43472.769957: mm_page_free: page=000000001076e827 pfn=6336111 order=0
+           sleep-12491 [006] .... 43472.769958: mm_page_free: page=000000006cfdb727 pfn=2910019 order=0
+           sleep-12491 [006] .... 43472.769958: mm_page_free: page=00000000e534fe0e pfn=2133973 order=0
+           sleep-12491 [006] .... 43472.769959: mm_page_free: page=00000000c61f970b pfn=1435423 order=0
+           sleep-12491 [006] .... 43472.769959: mm_page_free: page=000000003151812b pfn=2768995 order=0
+           sleep-12491 [006] .... 43472.769960: mm_page_free: page=000000005ba8b5fb pfn=2237989 order=0
+           sleep-12491 [006] .... 43472.769960: mm_page_free: page=00000000f877605f pfn=1054139 order=0
+           sleep-12491 [006] .... 43472.769961: mm_page_free: page=00000000862c4ff5 pfn=2258075 order=0
+           sleep-12491 [006] .... 43472.769961: mm_page_free: page=00000000ff852a66 pfn=2841682 order=0
+           sleep-12491 [006] .... 43472.769961: mm_page_free: page=00000000b2cee7ce pfn=2877135 order=0
+           sleep-12491 [006] .... 43472.769962: mm_page_free: page=00000000229f7a84 pfn=1869809 order=0
+           sleep-12491 [006] .... 43472.769962: mm_page_free: page=00000000512bc04b pfn=1090519 order=0
+           sleep-12491 [006] .... 43472.769963: mm_page_free: page=000000006c2bbc93 pfn=6046053 order=0
+           sleep-12491 [006] .... 43472.769964: mm_page_free: page=00000000c601f736 pfn=1892893 order=0
+           sleep-12491 [006] .... 43472.769964: mm_page_free: page=0000000095120d13 pfn=5765376 order=0
+           sleep-12491 [006] .... 43472.769965: mm_page_free: page=0000000075aac49c pfn=1598104 order=0
+           sleep-12491 [006] .... 43472.769965: mm_page_free: page=00000000750941c6 pfn=6467801 order=0
+           sleep-12491 [006] .... 43472.769966: mm_page_free: page=000000008a13c27e pfn=2123273 order=0
+           sleep-12491 [006] .... 43472.769966: mm_page_free: page=000000006ab6d327 pfn=2321811 order=0
+           sleep-12491 [006] .... 43472.769966: mm_page_free: page=000000002ec747d1 pfn=5948850 order=0
+           sleep-12491 [006] .... 43472.769967: mm_page_free: page=000000007552086a pfn=6448848 order=0
+           sleep-12491 [006] .... 43472.769967: mm_page_free: page=00000000288665a9 pfn=2969680 order=0
+           sleep-12491 [006] .... 43472.769967: mm_page_free: page=000000003f2242cc pfn=2017196 order=0
+           sleep-12491 [006] .... 43472.769968: mm_page_free: page=00000000d9f3b363 pfn=1823040 order=0
+           sleep-12491 [006] .... 43472.769968: mm_page_free: page=00000000346ef2a0 pfn=1075483 order=0
+           sleep-12491 [006] .... 43472.769969: mm_page_free: page=00000000e4ddd8ba pfn=2232889 order=0
+           sleep-12491 [006] .... 43472.769969: mm_page_free: page=00000000bf8f4ba1 pfn=2045472 order=0
+           sleep-12491 [006] .... 43472.769969: mm_page_free: page=00000000ce24281d pfn=2225821 order=0
+           sleep-12491 [006] .... 43472.769970: mm_page_free: page=000000003108004e pfn=1691307 order=0
+           sleep-12491 [006] .... 43472.769973: mm_page_free: page=000000009a3e54bd pfn=5898515 order=0
+     kworker/6:0-12018 [006] .... 43472.770055: mm_page_free: page=0000000032665f74 pfn=2769419 order=0
+     kworker/6:0-12018 [006] .... 43472.770056: mm_page_free: page=0000000045718d04 pfn=5581190 order=0
+     kworker/6:0-12018 [006] .... 43472.770057: mm_page_free: page=00000000b37db7d4 pfn=1633809 order=0
+     kworker/6:0-12018 [006] .... 43472.770057: mm_page_free: page=00000000102e1fb3 pfn=6426826 order=0
+        run.bash-12490 [001] .... 43472.770195: mm_page_alloc: page=000000004313750a pfn=1867021 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770215: mm_page_alloc: page=00000000012870cf pfn=6558661 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770224: mm_page_alloc: page=00000000fdc8e948 pfn=5854205 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770244: mm_page_alloc: page=0000000057bfd3c5 pfn=5648805 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770265: mm_page_alloc: page=000000009647754b pfn=5956745 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770332: mm_page_alloc: page=00000000a504065f pfn=5768051 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770338: mm_page_alloc: page=0000000080bf5068 pfn=2460527 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770344: mm_page_alloc: page=00000000ce384683 pfn=2042176 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770350: mm_page_alloc: page=00000000565be40e pfn=6163529 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770356: mm_page_alloc: page=0000000027cf3a63 pfn=2944577 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770362: mm_page_alloc: page=00000000dd585607 pfn=5645151 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770367: mm_page_alloc: page=00000000676ff28b pfn=1911212 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770375: mm_page_alloc: page=00000000dc21e558 pfn=1958791 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770405: mm_page_alloc: page=00000000680abb33 pfn=2525158 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770411: mm_page_alloc: page=0000000062859faa pfn=2822379 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770417: mm_page_alloc: page=00000000636b5a4a pfn=1949384 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770427: mm_page_alloc: page=000000002de23998 pfn=5788348 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770433: mm_page_alloc: page=000000007dd4bc09 pfn=1263059 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770438: mm_page_alloc: page=0000000039e166c7 pfn=6229881 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770444: mm_page_alloc: page=0000000032c0f83f pfn=6378961 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770486: mm_page_alloc: page=0000000063169360 pfn=1607141 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770503: mm_page_alloc: page=00000000760a80f4 pfn=2657457 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770509: mm_page_alloc: page=000000001f91febb pfn=2657007 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770515: mm_page_alloc: page=000000002890bdc0 pfn=2943137 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770521: mm_page_alloc: page=00000000368322f4 pfn=1590179 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770527: mm_page_alloc: page=00000000a2fb1482 pfn=1936180 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770534: mm_page_alloc: page=00000000312f37cd pfn=2902271 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770540: mm_page_alloc: page=000000005534d799 pfn=1625904 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770545: mm_page_alloc: page=000000001d2ffacf pfn=1556301 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770552: mm_page_alloc: page=00000000649cbf3e pfn=6218226 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770576: mm_page_alloc: page=000000000c8bd8e0 pfn=5587479 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770660: mm_page_alloc: page=00000000567eb9f1 pfn=1958267 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770667: mm_page_alloc: page=000000005a90a5f9 pfn=1847181 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770754: mm_page_alloc: page=00000000cd126787 pfn=6024092 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770767: mm_page_alloc: page=00000000e4253e87 pfn=6616950 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770774: mm_page_alloc: page=00000000be324ae5 pfn=5639931 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770781: mm_page_alloc: page=00000000273057b8 pfn=2978228 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770793: mm_page_alloc: page=00000000f795e17b pfn=5597530 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770801: mm_page_alloc: page=00000000422a3a6d pfn=6037320 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770810: mm_page_alloc: page=00000000c01ec124 pfn=2599799 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770817: mm_page_alloc: page=0000000025fcbbe6 pfn=6147852 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770823: mm_page_alloc: page=00000000eae85319 pfn=1098071 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770843: mm_page_alloc: page=00000000f4ca368f pfn=1098082 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770850: mm_page_alloc: page=00000000932abe59 pfn=6553014 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770858: mm_page_alloc: page=0000000026b4e1f8 pfn=2964909 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770886: mm_page_alloc: page=0000000036b1580d pfn=6175650 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.770900: mm_page_alloc: page=0000000092bb8936 pfn=3421528 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.771085: mm_page_alloc: page=00000000f4ac38a0 pfn=2000412 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.771153: mm_page_alloc: page=00000000e5115c40 pfn=6113786 order=0 migratetype=0 gfp_flags=GFP_KERNEL|__GFP_HIGHMEM|__GFP_NOWARN|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.771155: mm_page_alloc: page=00000000fb259e9b pfn=2103018 order=0 migratetype=0 gfp_flags=GFP_KERNEL|__GFP_HIGHMEM|__GFP_NOWARN|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.771156: mm_page_alloc: page=00000000de9ebf00 pfn=6608699 order=0 migratetype=0 gfp_flags=GFP_KERNEL|__GFP_HIGHMEM|__GFP_NOWARN|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.771158: mm_page_alloc: page=00000000fdaf19a6 pfn=2237758 order=0 migratetype=0 gfp_flags=GFP_KERNEL|__GFP_HIGHMEM|__GFP_NOWARN|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.771201: mm_page_alloc: page=0000000017f3d7c5 pfn=1062776 order=1 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.771215: mm_page_alloc: page=00000000a4466cf4 pfn=2130817 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.771218: mm_page_alloc: page=0000000035e0b717 pfn=1632175 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.771221: mm_page_alloc: page=000000006383ab7c pfn=1802636 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.771234: mm_page_alloc: page=00000000df3668eb pfn=6602748 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.771245: mm_page_alloc: page=00000000fda1e54d pfn=2469791 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.771247: mm_page_alloc: page=00000000ab5e8ccf pfn=2406160 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.771249: mm_page_alloc: page=00000000d86dc07a pfn=6349272 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.771257: mm_page_alloc: page=00000000ddb50ebc pfn=1635297 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.771293: mm_page_alloc: page=0000000023c34ba8 pfn=6168958 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.771295: mm_page_alloc: page=00000000f6965c1a pfn=6336077 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.771297: mm_page_alloc: page=000000003efd432c pfn=1650584 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43472.771344: mm_page_alloc: page=00000000d284401e pfn=1097254 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.771355: mm_page_alloc: page=00000000bd12637f pfn=2809650 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.771362: mm_page_alloc: page=000000009fdb3894 pfn=1318273 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.771371: mm_page_alloc: page=00000000e2b38de6 pfn=5571891 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.771380: mm_page_alloc: page=00000000fc8cf4a5 pfn=2842544 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.771388: mm_page_alloc: page=00000000fabaf088 pfn=5998868 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.771396: mm_page_alloc: page=00000000c9eb250c pfn=6521625 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.771402: mm_page_alloc: page=0000000024a70888 pfn=1606500 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.771409: mm_page_alloc: page=00000000c9e5e721 pfn=2516207 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.771417: mm_page_alloc: page=00000000dcbba7ca pfn=1344175 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.771426: mm_page_alloc: page=00000000bb3ff15f pfn=1272218 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.771434: mm_page_alloc: page=000000005fe3ca4a pfn=1995236 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.771437: mm_page_alloc: page=000000001b8df563 pfn=1436505 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.771441: mm_page_alloc: page=00000000bcda7250 pfn=6194960 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.771449: mm_page_alloc: page=00000000262b370a pfn=2464026 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.771462: mm_page_alloc: page=00000000d8ba2b6c pfn=5082786 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.771470: mm_page_alloc: page=0000000073e42d0a pfn=1346500 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.771477: mm_page_alloc: page=0000000018ff2a2f pfn=6003672 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43472.771491: mm_page_alloc: page=00000000aed09f56 pfn=5630976 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.771597: mm_page_alloc: page=00000000e1e9efb5 pfn=6203861 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.771668: mm_page_alloc: page=00000000a25fcde1 pfn=5647259 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.771824: mm_page_free: page=0000000036a584a1 pfn=2081063 order=0
+            main-12492 [002] .... 43472.771907: mm_page_alloc: page=0000000036a584a1 pfn=2081063 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.771918: mm_page_alloc: page=00000000fcdf145d pfn=6394328 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.771965: mm_page_alloc: page=0000000002dc06a0 pfn=1064626 order=1 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+            main-12492 [002] .... 43472.772095: mm_page_alloc: page=0000000003344ade pfn=1644230 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+            main-12492 [002] .... 43472.772098: mm_page_alloc: page=0000000000179f7d pfn=6141969 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+            main-12492 [002] .... 43472.772101: mm_page_alloc: page=0000000095463546 pfn=6602220 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+            main-12492 [002] .... 43472.772105: mm_page_alloc: page=000000001ef44105 pfn=2905169 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.772166: mm_page_alloc: page=0000000036e38afe pfn=6405537 order=0 migratetype=0 gfp_flags=GFP_NOWAIT|__GFP_NOWARN
+            main-12492 [002] .... 43472.772279: mm_page_free: page=0000000023c34ba8 pfn=6168958 order=0
+            main-12492 [002] .... 43472.772280: mm_page_free: page=00000000f6965c1a pfn=6336077 order=0
+            main-12492 [002] .... 43472.772281: mm_page_free: page=000000003efd432c pfn=1650584 order=0
+            main-12492 [002] .... 43472.772281: mm_page_free: page=00000000fda1e54d pfn=2469791 order=0
+            main-12492 [002] .... 43472.772282: mm_page_free: page=00000000ab5e8ccf pfn=2406160 order=0
+            main-12492 [002] .... 43472.772282: mm_page_free: page=00000000ddb50ebc pfn=1635297 order=0
+            main-12492 [002] .... 43472.772282: mm_page_free: page=00000000d86dc07a pfn=6349272 order=0
+            main-12492 [002] .... 43472.772283: mm_page_free: page=00000000a4466cf4 pfn=2130817 order=0
+            main-12492 [002] .... 43472.772283: mm_page_free: page=0000000035e0b717 pfn=1632175 order=0
+            main-12492 [002] .... 43472.772284: mm_page_free: page=00000000df3668eb pfn=6602748 order=0
+            main-12492 [002] .... 43472.772284: mm_page_free: page=000000006383ab7c pfn=1802636 order=0
+            main-12492 [002] .... 43472.772284: mm_page_free: page=00000000cbf20dc8 pfn=5703511 order=0
+            main-12492 [002] .... 43472.772285: mm_page_free: page=000000008cc6a365 pfn=5667252 order=0
+            main-12492 [002] .... 43472.772285: mm_page_free: page=000000001b8df563 pfn=1436505 order=0
+            main-12492 [002] .... 43472.772286: mm_page_free: page=0000000036a584a1 pfn=2081063 order=0
+            main-12492 [002] .... 43472.772286: mm_page_free: page=00000000fcdf145d pfn=6394328 order=0
+            main-12492 [002] .... 43472.772287: mm_page_free: page=00000000c1498af3 pfn=6318051 order=0
+            main-12492 [002] .... 43472.772287: mm_page_free: page=0000000024a70888 pfn=1606500 order=0
+            main-12492 [002] .... 43472.772287: mm_page_free: page=00000000f4ac38a0 pfn=2000412 order=0
+            main-12492 [002] .... 43472.772288: mm_page_free: page=0000000092bb8936 pfn=3421528 order=0
+            main-12492 [002] .... 43472.772288: mm_page_free: page=00000000a25fcde1 pfn=5647259 order=0
+            main-12492 [002] .... 43472.772289: mm_page_free: page=00000000ccbf25ee pfn=1334695 order=0
+            main-12492 [002] .... 43472.772289: mm_page_free: page=0000000063a7bcf9 pfn=1995671 order=0
+            main-12492 [002] .... 43472.772290: mm_page_free: page=00000000b57f8226 pfn=1839286 order=0
+            main-12492 [002] .... 43472.772290: mm_page_free: page=00000000a314df5e pfn=2534181 order=0
+            main-12492 [002] .... 43472.772290: mm_page_free: page=000000000e92af61 pfn=1841677 order=0
+            main-12492 [002] .... 43472.772291: mm_page_free: page=000000005052aa8b pfn=2696525 order=0
+            main-12492 [002] .... 43472.772291: mm_page_free: page=00000000d5b8dccd pfn=3224973 order=0
+            main-12492 [002] .... 43472.772292: mm_page_free: page=00000000e1e9efb5 pfn=6203861 order=0
+            main-12492 [002] .... 43472.772292: mm_page_free: page=000000003d152e54 pfn=5765250 order=0
+            main-12492 [002] .... 43472.772292: mm_page_free: page=000000005030eedf pfn=6383474 order=0
+            main-12492 [002] .... 43472.772293: mm_page_free: page=000000007d56c4cc pfn=2217008 order=0
+            main-12492 [002] .... 43472.772293: mm_page_free: page=000000000d9c40e7 pfn=1238573 order=0
+            main-12492 [002] .... 43472.772294: mm_page_free: page=000000006b7dfe6e pfn=2717018 order=0
+            main-12492 [002] .... 43472.772296: mm_page_free: page=0000000036e38afe pfn=6405537 order=0
+            main-12492 [002] .... 43472.772304: mm_page_free: page=0000000017f3d7c5 pfn=1062776 order=1
+            main-12492 [002] .... 43472.772326: mm_page_alloc: page=0000000036e38afe pfn=6405537 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+            main-12492 [002] .... 43472.772328: mm_page_alloc: page=000000006383ab7c pfn=1802636 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+            main-12492 [002] .... 43472.772334: mm_page_free: page=0000000000179f7d pfn=6141969 order=0
+            main-12492 [002] .... 43472.772334: mm_page_free: page=0000000095463546 pfn=6602220 order=0
+            main-12492 [002] .... 43472.772360: mm_page_alloc: page=0000000095463546 pfn=6602220 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+            main-12492 [002] .... 43472.772361: mm_page_alloc: page=0000000000179f7d pfn=6141969 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+            main-12492 [002] .... 43472.772364: mm_page_alloc: page=000000006b7dfe6e pfn=2717018 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.772366: mm_page_alloc: page=00000000df3668eb pfn=6602748 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+            main-12492 [002] .... 43472.772410: mm_page_alloc: page=0000000035e0b717 pfn=1632175 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+            main-12492 [002] .... 43472.772412: mm_page_alloc: page=00000000a4466cf4 pfn=2130817 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+            main-12492 [002] .... 43472.772413: mm_page_alloc: page=000000000d9c40e7 pfn=1238573 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.772415: mm_page_alloc: page=00000000d86dc07a pfn=6349272 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+            main-12492 [002] .... 43472.772429: mm_page_alloc: page=000000007d56c4cc pfn=2217008 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.772458: mm_page_alloc: page=000000005030eedf pfn=6383474 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.772480: mm_page_alloc: page=000000003d152e54 pfn=5765250 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11507 [007] .... 43472.772509: mm_page_alloc: page=00000000ae6224fd pfn=2155514 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.772545: mm_page_alloc: page=00000000e1e9efb5 pfn=6203861 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.772555: mm_page_alloc: page=00000000d5b8dccd pfn=3224973 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.772598: mm_page_alloc: page=000000005052aa8b pfn=2696525 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11507 [007] .... 43472.772608: mm_page_free: page=00000000ae6224fd pfn=2155514 order=0
+            main-12492 [002] .... 43472.772612: mm_page_alloc: page=000000000e92af61 pfn=1841677 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.772676: mm_page_alloc: page=00000000a314df5e pfn=2534181 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.772690: mm_page_alloc: page=00000000b57f8226 pfn=1839286 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.772795: mm_page_alloc: page=0000000063a7bcf9 pfn=1995671 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.772810: mm_page_alloc: page=00000000ccbf25ee pfn=1334695 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            code-11506 [006] .... 43472.772861: mm_page_free: page=00000000a9a144db pfn=6567806 order=1
+            main-12492 [002] .... 43472.773130: mm_page_alloc: page=00000000a25fcde1 pfn=5647259 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.773155: mm_page_alloc: page=0000000092bb8936 pfn=3421528 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.773168: mm_page_alloc: page=00000000ddb50ebc pfn=1635297 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+            main-12492 [002] .... 43472.773224: mm_page_alloc: page=00000000f4ac38a0 pfn=2000412 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.773278: mm_page_alloc: page=0000000024a70888 pfn=1606500 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.773292: mm_page_alloc: page=00000000c1498af3 pfn=6318051 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.773303: mm_page_alloc: page=00000000ab5e8ccf pfn=2406160 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+            main-12492 [002] .... 43472.773409: mm_page_alloc: page=00000000fcdf145d pfn=6394328 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.773426: mm_page_alloc: page=0000000036a584a1 pfn=2081063 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.773553: mm_page_alloc: page=000000001b8df563 pfn=1436505 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.773576: mm_page_alloc: page=000000008cc6a365 pfn=5667252 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.773587: mm_page_alloc: page=00000000fda1e54d pfn=2469791 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+            main-12492 [002] .... 43472.773656: mm_page_alloc: page=00000000cbf20dc8 pfn=5703511 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.773693: mm_page_alloc: page=00000000426d5ed4 pfn=1957631 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.773699: mm_page_alloc: page=00000000c609954b pfn=2278752 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.773709: mm_page_alloc: page=00000000bba52b65 pfn=1683469 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.773719: mm_page_alloc: page=00000000113add7a pfn=6246548 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.773748: mm_page_alloc: page=0000000087dfb16a pfn=1494219 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.773761: mm_page_alloc: page=00000000513c0ebf pfn=1336002 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.773997: mm_page_alloc: page=000000001d697631 pfn=5582074 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.774006: mm_page_alloc: page=00000000f0d85fae pfn=3247670 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.774015: mm_page_alloc: page=00000000a2088d5b pfn=1233387 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.774023: mm_page_alloc: page=000000007e0d430e pfn=2932920 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.774030: mm_page_alloc: page=000000007b1c39d7 pfn=2013843 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.774037: mm_page_alloc: page=000000005bea791e pfn=1628357 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.774044: mm_page_alloc: page=00000000e77a0237 pfn=6582033 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.774056: mm_page_alloc: page=00000000806399b2 pfn=2319568 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.774063: mm_page_alloc: page=00000000ace536bf pfn=1855434 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.774070: mm_page_alloc: page=000000007595f4c1 pfn=1179683 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.774079: mm_page_alloc: page=00000000cbe7dfbf pfn=5571625 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.775229: mm_page_alloc: page=000000008ab2909a pfn=3036722 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+            main-12492 [002] .... 43472.775267: mm_page_alloc: page=00000000b8a22f2c pfn=2282920 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.775489: mm_page_alloc: page=000000003efd432c pfn=1650584 order=0 migratetype=0 gfp_flags=GFP_NOWAIT|__GFP_NOWARN
+            main-12492 [002] .... 43472.775515: mm_page_free: page=000000003efd432c pfn=1650584 order=0
+            main-12492 [002] .... 43472.775537: mm_page_alloc: page=000000001a1e020c pfn=3116449 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.775543: mm_page_alloc: page=000000004a25c642 pfn=2991843 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.775652: mm_page_alloc: page=00000000ec33499f pfn=5651097 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.775842: mm_page_alloc: page=00000000af27295c pfn=1297022 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.775870: mm_page_alloc: page=000000003efd432c pfn=1650584 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+            main-12492 [002] .... 43472.775873: mm_page_alloc: page=000000002ec23f0a pfn=5878985 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.775880: mm_page_alloc: page=00000000ba2303a7 pfn=2463910 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.775900: mm_page_alloc: page=00000000be71ace9 pfn=2477171 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.775950: mm_page_alloc: page=000000006933f8cd pfn=1955716 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.776163: mm_page_alloc: page=0000000027d66fec pfn=2286922 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.776196: mm_page_alloc: page=00000000a542bb3c pfn=1808207 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.776203: mm_page_alloc: page=00000000327468b0 pfn=3077407 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.776209: mm_page_alloc: page=00000000cb9f804d pfn=2016832 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.776238: mm_page_alloc: page=0000000073943c72 pfn=2567904 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_WRITE
+            code-11507 [007] .... 43472.776669: mm_page_alloc: page=00000000ae6224fd pfn=2155514 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11507 [007] .... 43472.776767: mm_page_free: page=00000000ae6224fd pfn=2155514 order=0
+ irq/159-iwlwifi-1228  [007] .... 43472.787447: mm_page_free: page=0000000080dec695 pfn=5878159 order=0
+            code-11480 [003] .... 43472.823087: mm_page_alloc: page=00000000ce8b8006 pfn=6152916 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11480 [003] .... 43472.823098: mm_page_free: page=00000000ce8b8006 pfn=6152916 order=0
+            main-12492 [002] .... 43472.863660: mm_page_alloc: page=00000000f6965c1a pfn=6336077 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+            main-12492 [002] .... 43472.863660: mm_page_alloc: page=00000000fd88324a pfn=2984841 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.863663: mm_page_alloc: page=00000000ec04df00 pfn=1345493 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.863666: mm_page_alloc: page=00000000ebb99490 pfn=2544239 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.863667: mm_page_alloc: page=00000000df1a9d26 pfn=2747836 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           <...>-11504 [004] .... 43472.863845: mm_page_alloc: page=000000007617d58d pfn=2515443 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           <...>-11504 [004] .... 43472.863862: mm_page_free: page=000000007617d58d pfn=2515443 order=0
+            code-11489 [003] .... 43472.864187: mm_page_alloc: page=00000000ce8b8006 pfn=6152916 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43472.864205: mm_page_alloc: page=00000000562db7f1 pfn=6035331 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43472.864295: mm_page_alloc: page=00000000c24998f8 pfn=1924720 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43472.864303: mm_page_alloc: page=00000000824f6073 pfn=5625676 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43472.864308: mm_page_alloc: page=00000000fe910a53 pfn=2702569 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+ irq/159-iwlwifi-1228  [007] .... 43472.889160: mm_page_free: page=00000000472bb268 pfn=6337184 order=0
+     openconnect-10127 [001] .... 43472.889223: mm_page_free: page=0000000035ec762a pfn=1645512 order=0
+ irq/159-iwlwifi-1228  [007] .... 43472.893720: mm_page_free: page=000000008739ca46 pfn=2407015 order=0
+     openconnect-10127 [001] .... 43472.895153: mm_page_free: page=000000006262212c pfn=5581192 order=0
+            code-11437 [001] .... 43472.915078: mm_page_alloc: page=0000000037618fb9 pfn=1588539 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11480 [003] .... 43472.915163: mm_page_alloc: page=0000000089e61301 pfn=2398492 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11480 [003] .... 43472.915171: mm_page_free: page=0000000089e61301 pfn=2398492 order=0
+            code-11437 [001] .... 43472.915360: mm_page_alloc: page=000000002dd2e601 pfn=5713079 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.916872: mm_page_alloc: page=000000000264ae8e pfn=1628846 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.916874: mm_page_alloc: page=000000009613b8e0 pfn=1925601 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.916875: mm_page_alloc: page=00000000394ce3e0 pfn=6287171 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.916876: mm_page_alloc: page=00000000d7c995c3 pfn=1301065 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11507 [007] .... 43472.917095: mm_page_alloc: page=00000000ae6224fd pfn=2155514 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11507 [007] .... 43472.917115: mm_page_free: page=00000000ae6224fd pfn=2155514 order=0
+      terminator-3643  [001] .... 43472.927465: mm_page_free: page=00000000fed570c2 pfn=6567621 order=0
+      terminator-3643  [001] .... 43472.927708: mm_page_alloc: page=00000000fed570c2 pfn=6567621 order=0 migratetype=0 gfp_flags=GFP_KERNEL
+     gnome-shell-2853  [003] .... 43472.927753: mm_page_free: page=00000000b5d658ac pfn=1423615 order=0
+      terminator-3643  [001] .... 43472.927960: mm_page_free: page=00000000fed570c2 pfn=6567621 order=0
+      terminator-3643  [001] .... 43472.927975: mm_page_alloc: page=00000000fed570c2 pfn=6567621 order=0 migratetype=0 gfp_flags=GFP_KERNEL
+     gnome-shell-2853  [003] .... 43472.930154: mm_page_alloc: page=00000000b5d658ac pfn=1423615 order=0 migratetype=0 gfp_flags=GFP_KERNEL
+      terminator-3643  [001] .... 43472.930181: mm_page_free: page=00000000fed570c2 pfn=6567621 order=0
+      terminator-3643  [001] .... 43472.930306: mm_page_alloc: page=00000000fed570c2 pfn=6567621 order=0 migratetype=0 gfp_flags=GFP_KERNEL
+     gnome-shell-2853  [003] .... 43472.950972: mm_page_free: page=00000000b5d658ac pfn=1423615 order=0
+     gnome-shell-2853  [003] .... 43472.951061: mm_page_alloc: page=00000000b5d658ac pfn=1423615 order=0 migratetype=0 gfp_flags=GFP_KERNEL
+            code-11437 [001] .... 43472.968031: mm_page_alloc: page=000000003387c13d pfn=1743571 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11437 [001] .... 43472.968073: mm_page_alloc: page=00000000a8a36745 pfn=2554435 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11437 [001] .... 43472.968105: mm_page_alloc: page=000000000a658502 pfn=2306693 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11437 [001] .... 43472.968194: mm_page_alloc: page=0000000050c21e17 pfn=1506191 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11437 [001] .... 43472.968234: mm_page_alloc: page=0000000094e22105 pfn=2635741 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11480 [003] .... 43472.968307: mm_page_alloc: page=0000000089e61301 pfn=2398492 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11480 [003] .... 43472.968317: mm_page_free: page=0000000089e61301 pfn=2398492 order=0
+            main-12492 [002] .... 43472.970909: mm_page_alloc: page=0000000023c34ba8 pfn=6168958 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+            main-12492 [002] .... 43472.970910: mm_page_alloc: page=0000000065d620ca pfn=1822368 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.970913: mm_page_alloc: page=0000000018ec8744 pfn=5744207 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.970914: mm_page_alloc: page=00000000fb5ae3e3 pfn=1314568 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43472.970916: mm_page_alloc: page=00000000f6acb59b pfn=1997986 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11506 [006] .... 43472.971114: mm_page_alloc: page=000000003108004e pfn=1691307 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11506 [006] .... 43472.971139: mm_page_free: page=000000003108004e pfn=1691307 order=0
+            code-11437 [001] .... 43473.021864: mm_page_alloc: page=000000003f63f172 pfn=6045894 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11437 [001] .... 43473.021891: mm_page_alloc: page=00000000ef89fe18 pfn=6623789 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11437 [001] .... 43473.021908: mm_page_alloc: page=00000000da838168 pfn=6152909 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11437 [001] .... 43473.021940: mm_page_alloc: page=000000008e07a232 pfn=1090980 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11437 [001] .... 43473.021977: mm_page_alloc: page=00000000a159f019 pfn=2962467 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11480 [003] .... 43473.022043: mm_page_alloc: page=0000000089e61301 pfn=2398492 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11480 [003] .... 43473.022049: mm_page_free: page=0000000089e61301 pfn=2398492 order=0
+            code-11437 [001] .... 43473.022248: mm_page_alloc: page=00000000181fbe89 pfn=5661349 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.023919: mm_page_alloc: page=00000000a9d186c1 pfn=5657672 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.023922: mm_page_alloc: page=000000006b5cc1cf pfn=1661439 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.023923: mm_page_alloc: page=000000009970769a pfn=2116469 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.023924: mm_page_alloc: page=00000000a2d265c8 pfn=1089499 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11505 [000] .... 43473.024113: mm_page_alloc: page=0000000025b0f485 pfn=1838345 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11505 [000] .... 43473.024128: mm_page_free: page=0000000025b0f485 pfn=1838345 order=0
+   kworker/u17:1-32001 [004] .... 43473.032252: mm_page_alloc: page=000000000878151a pfn=5989602 order=0 migratetype=0 gfp_flags=GFP_KERNEL|__GFP_NOWARN
+   kworker/u17:1-32001 [004] .... 43473.032253: mm_page_alloc: page=000000004554e399 pfn=3206479 order=0 migratetype=0 gfp_flags=GFP_KERNEL|__GFP_NOWARN
+   kworker/u17:1-32001 [004] .... 43473.032254: mm_page_alloc: page=00000000329a79cf pfn=1630810 order=0 migratetype=0 gfp_flags=GFP_KERNEL|__GFP_NOWARN
+   kworker/u17:1-32001 [004] .... 43473.032254: mm_page_alloc: page=00000000bde455f8 pfn=6180983 order=0 migratetype=0 gfp_flags=GFP_KERNEL|__GFP_NOWARN
+   kworker/u17:1-32001 [004] .... 43473.032254: mm_page_alloc: page=000000007842846e pfn=2194026 order=0 migratetype=0 gfp_flags=GFP_KERNEL|__GFP_NOWARN
+   kworker/u17:1-32001 [004] .... 43473.032254: mm_page_alloc: page=000000003fe4fba7 pfn=2194988 order=0 migratetype=0 gfp_flags=GFP_KERNEL|__GFP_NOWARN
+   kworker/u17:1-32001 [004] .... 43473.032255: mm_page_alloc: page=00000000e70b815a pfn=1433602 order=0 migratetype=0 gfp_flags=GFP_KERNEL|__GFP_NOWARN
+   kworker/u17:1-32001 [004] .... 43473.032255: mm_page_alloc: page=00000000c915bb56 pfn=6167723 order=0 migratetype=0 gfp_flags=GFP_KERNEL|__GFP_NOWARN
+     openconnect-10127 [001] .... 43473.032313: mm_page_free: page=00000000117e966a pfn=2258693 order=0
+            code-11480 [003] .... 43473.032376: mm_page_alloc: page=0000000089e61301 pfn=2398492 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11437 [001] .... 43473.074978: mm_page_alloc: page=000000001bdf8516 pfn=6422064 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11437 [001] .... 43473.074989: mm_page_alloc: page=0000000035652824 pfn=3281698 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11437 [001] .... 43473.075024: mm_page_alloc: page=0000000067a9e418 pfn=2353681 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11437 [001] .... 43473.075058: mm_page_alloc: page=00000000fc04d108 pfn=2610507 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11480 [003] .... 43473.075124: mm_page_alloc: page=00000000d152fb01 pfn=1820490 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11480 [003] .... 43473.075131: mm_page_free: page=00000000d152fb01 pfn=1820490 order=0
+            code-11437 [001] .... 43473.075224: mm_page_alloc: page=000000005462568c pfn=3425997 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.077034: mm_page_alloc: page=000000000ec46517 pfn=6486173 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.077038: mm_page_alloc: page=00000000b1967f5b pfn=6172971 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.077039: mm_page_alloc: page=00000000b6d79643 pfn=2043209 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.077041: mm_page_alloc: page=00000000d162b32f pfn=2158376 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11507 [007] .... 43473.077187: mm_page_alloc: page=00000000ae6224fd pfn=2155514 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11507 [007] .... 43473.077207: mm_page_free: page=00000000ae6224fd pfn=2155514 order=0
+            code-11489 [003] .... 43473.082635: mm_page_alloc: page=00000000d152fb01 pfn=1820490 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+     openconnect-10127 [001] .... 43473.116683: mm_page_free: page=00000000983cfac7 pfn=1726205 order=0
+            code-11437 [001] .... 43473.127983: mm_page_alloc: page=00000000261dc70f pfn=6315081 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11437 [001] .... 43473.128002: mm_page_alloc: page=000000008f63c070 pfn=6575940 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11437 [001] .... 43473.128030: mm_page_alloc: page=0000000084408e1a pfn=3437435 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11437 [001] .... 43473.128089: mm_page_alloc: page=000000003bb12182 pfn=1460675 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11480 [003] .... 43473.128173: mm_page_alloc: page=000000005f9f5ab8 pfn=2084574 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11480 [003] .... 43473.128181: mm_page_free: page=000000005f9f5ab8 pfn=2084574 order=0
+            code-11437 [001] .... 43473.128368: mm_page_alloc: page=000000004eae7966 pfn=6288410 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+     openconnect-10127 [001] .... 43473.129623: mm_page_free: page=0000000099c19d67 pfn=6290661 order=0
+            main-12492 [002] .... 43473.130610: mm_page_alloc: page=000000003f89dacc pfn=6427243 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+            main-12492 [002] .... 43473.130611: mm_page_alloc: page=00000000a382521c pfn=2426214 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.130614: mm_page_alloc: page=000000002c6f30fb pfn=1899301 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.130615: mm_page_alloc: page=000000008607034d pfn=3321176 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.130616: mm_page_alloc: page=000000004aead7ea pfn=2509883 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           <...>-11504 [004] .... 43473.130789: mm_page_alloc: page=000000007617d58d pfn=2515443 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           <...>-11504 [004] .... 43473.130808: mm_page_free: page=000000007617d58d pfn=2515443 order=0
+            code-11437 [001] .... 43473.181570: mm_page_alloc: page=000000003915b773 pfn=6256022 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11437 [001] .... 43473.181587: mm_page_alloc: page=00000000d84de01c pfn=1095687 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11437 [001] .... 43473.181615: mm_page_alloc: page=0000000011bc29d1 pfn=6146574 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11437 [001] .... 43473.181662: mm_page_alloc: page=00000000ffe61a0a pfn=2669847 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11480 [003] .... 43473.181739: mm_page_alloc: page=000000005f9f5ab8 pfn=2084574 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11480 [003] .... 43473.181745: mm_page_free: page=000000005f9f5ab8 pfn=2084574 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182085: mm_page_alloc: page=000000003108004e pfn=1691307 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+ TaskSchedulerFo-12069 [006] .... 43473.182119: mm_page_alloc: page=00000000ce24281d pfn=2225821 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+ TaskSchedulerFo-12069 [006] .... 43473.182124: mm_page_alloc: page=00000000bf8f4ba1 pfn=2045472 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+ TaskSchedulerFo-12069 [006] .... 43473.182270: mm_page_alloc: page=00000000e4ddd8ba pfn=2232889 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+ TaskSchedulerFo-12069 [006] .... 43473.182469: mm_page_alloc: page=00000000102e1fb3 pfn=6426826 order=0 migratetype=0 gfp_flags=GFP_NOWAIT|__GFP_NOWARN
+ TaskSchedulerFo-12069 [006] .... 43473.182487: mm_page_free: page=00000000ba4453ad pfn=1972835 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182488: mm_page_free: page=00000000e1837b91 pfn=1263865 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182488: mm_page_free: page=00000000e7b3d3a8 pfn=1581401 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182488: mm_page_free: page=00000000165b9a05 pfn=2369240 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182488: mm_page_free: page=00000000e3b8659f pfn=2059479 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182488: mm_page_free: page=0000000056fee0ea pfn=1591457 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182488: mm_page_free: page=000000005b0ea27e pfn=5938739 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182489: mm_page_free: page=00000000c8e6f8ea pfn=1509736 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182500: mm_page_free: page=00000000a3414ab2 pfn=1969969 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182500: mm_page_free: page=0000000015abcc49 pfn=1808594 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182500: mm_page_free: page=0000000024fcb224 pfn=1150320 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182500: mm_page_free: page=000000000d21a853 pfn=1904712 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182500: mm_page_free: page=0000000089527860 pfn=1269981 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182500: mm_page_free: page=00000000c81bf073 pfn=3083334 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182501: mm_page_free: page=0000000030c2c932 pfn=2605463 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182501: mm_page_free: page=0000000008bf4226 pfn=1574103 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182501: mm_page_free: page=000000006704740b pfn=2711069 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182501: mm_page_free: page=00000000b50416ed pfn=1301368 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182501: mm_page_free: page=00000000b26b4f09 pfn=2242525 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182502: mm_page_free: page=0000000045c4e838 pfn=1696152 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182502: mm_page_free: page=00000000b63a3a72 pfn=1492201 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182502: mm_page_free: page=000000003c7a1c09 pfn=6357421 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182502: mm_page_alloc: page=00000000384b00a8 pfn=2887920 order=0 migratetype=0 gfp_flags=GFP_NOWAIT|__GFP_NOWARN
+ TaskSchedulerFo-12069 [006] .... 43473.182502: mm_page_free: page=000000007dd99844 pfn=6281471 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182502: mm_page_free: page=000000002a93486e pfn=2253517 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182503: mm_page_free: page=00000000745f828e pfn=3022113 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182503: mm_page_free: page=00000000337e4938 pfn=2007835 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182503: mm_page_free: page=00000000aa659416 pfn=5708384 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182503: mm_page_free: page=00000000be21a9e6 pfn=6224414 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182503: mm_page_free: page=00000000125d0050 pfn=3026281 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182503: mm_page_free: page=0000000042576c0d pfn=1115161 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182503: mm_page_free: page=0000000031e51f41 pfn=2651853 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182504: mm_page_free: page=00000000274c551d pfn=1362664 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182504: mm_page_free: page=00000000ce48b2ce pfn=2579690 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182504: mm_page_free: page=00000000a67b4e35 pfn=2609830 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182504: mm_page_free: page=00000000df85cd41 pfn=1085137 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182504: mm_page_free: page=00000000737b7f17 pfn=1504421 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182504: mm_page_free: page=0000000087a61f8a pfn=1119184 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182504: mm_page_free: page=00000000c0570b58 pfn=1586773 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182505: mm_page_free: page=00000000d31897d4 pfn=6307718 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182505: mm_page_free: page=00000000e844b131 pfn=1825518 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182505: mm_page_free: page=00000000fee06f26 pfn=5575191 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182505: mm_page_free: page=000000005fc63352 pfn=1508569 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182505: mm_page_free: page=000000007ff0cd80 pfn=2735117 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182506: mm_page_free: page=00000000436c42f0 pfn=6574562 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182506: mm_page_free: page=00000000910d9f8e pfn=1995528 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182506: mm_page_free: page=00000000584f6fdc pfn=5942674 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182506: mm_page_free: page=000000002dbd714c pfn=2486886 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182506: mm_page_free: page=00000000ee4cffc0 pfn=2261055 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182506: mm_page_free: page=0000000028101df1 pfn=5705121 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182507: mm_page_free: page=00000000d6dd8244 pfn=2155923 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182507: mm_page_free: page=00000000af3f010c pfn=6074187 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182507: mm_page_free: page=00000000f2555d77 pfn=1694235 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182507: mm_page_free: page=00000000f4cf7b99 pfn=6415309 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182507: mm_page_free: page=0000000098d2b500 pfn=5852963 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182507: mm_page_free: page=000000009d3df624 pfn=1598539 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182508: mm_page_free: page=0000000064c19d74 pfn=2992527 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182508: mm_page_free: page=00000000e00aa097 pfn=1675596 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182508: mm_page_free: page=00000000708eab1e pfn=2615652 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182508: mm_page_free: page=000000001207e608 pfn=3215953 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182508: mm_page_free: page=000000003c9a0960 pfn=2647846 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182508: mm_page_free: page=00000000369cfaea pfn=1789605 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182509: mm_page_free: page=00000000c4ee40fe pfn=1323119 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182509: mm_page_free: page=0000000081773b9f pfn=1373532 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182509: mm_page_free: page=000000003de33a76 pfn=3188910 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182509: mm_page_free: page=00000000a0234661 pfn=2034104 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182509: mm_page_free: page=000000008c912c39 pfn=2050498 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182509: mm_page_free: page=000000005956fcdd pfn=1342689 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182509: mm_page_free: page=000000004f4017ba pfn=2269800 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182509: mm_page_free: page=00000000c41aa320 pfn=5651824 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182510: mm_page_free: page=000000002b865f0f pfn=1571771 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182510: mm_page_free: page=00000000f86d0982 pfn=1279145 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182510: mm_page_free: page=00000000f3fae3db pfn=2647774 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182510: mm_page_free: page=000000004e20d240 pfn=2295565 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182510: mm_page_free: page=00000000bbe8d98d pfn=3364226 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182510: mm_page_free: page=000000002ddb0a02 pfn=5739125 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182511: mm_page_free: page=00000000e1f541c9 pfn=1595144 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182511: mm_page_free: page=00000000ec60ad35 pfn=2082364 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182511: mm_page_free: page=00000000a8a40c36 pfn=2527829 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182511: mm_page_free: page=00000000329a3450 pfn=1551660 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182511: mm_page_free: page=00000000568d83d3 pfn=6153983 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182511: mm_page_free: page=0000000040872ae7 pfn=6310021 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182511: mm_page_free: page=00000000b0859a68 pfn=1963546 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182511: mm_page_free: page=000000004ee1961a pfn=5997065 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182512: mm_page_free: page=0000000056ae43a2 pfn=2328916 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182512: mm_page_free: page=000000008d720452 pfn=1911235 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182512: mm_page_free: page=0000000054ae018d pfn=6199277 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182512: mm_page_free: page=00000000323b66a3 pfn=1849488 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182512: mm_page_free: page=000000006b69469a pfn=2932559 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182512: mm_page_free: page=000000007b438a08 pfn=1966396 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182513: mm_page_free: page=000000009ca442d0 pfn=2858418 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182513: mm_page_free: page=0000000011611bc6 pfn=1428272 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182513: mm_page_free: page=0000000079d6682f pfn=2234178 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182513: mm_page_free: page=00000000850c0bfa pfn=2335402 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182514: mm_page_free: page=00000000335f0fd9 pfn=6011604 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182514: mm_page_free: page=000000008997c151 pfn=5588680 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182514: mm_page_free: page=00000000dbedd419 pfn=2035897 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182514: mm_page_free: page=00000000cfb02a5f pfn=6554438 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182515: mm_page_free: page=00000000f0a4e1e4 pfn=2417467 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182515: mm_page_free: page=0000000068ab4374 pfn=2285746 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182515: mm_page_free: page=00000000f56b37d7 pfn=6202262 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182515: mm_page_free: page=000000002563d5d9 pfn=1561084 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182515: mm_page_free: page=000000005a4b4e11 pfn=3179542 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182515: mm_page_free: page=00000000a0162d8f pfn=2777265 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182515: mm_page_free: page=00000000f7656cea pfn=6406688 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182515: mm_page_free: page=00000000ea024765 pfn=6428635 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182515: mm_page_free: page=000000004a046bc8 pfn=2271246 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182515: mm_page_free: page=00000000a261ed99 pfn=3108662 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182516: mm_page_free: page=00000000bb657c53 pfn=1910887 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182516: mm_page_free: page=00000000ca03510b pfn=1485445 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182516: mm_page_free: page=00000000bf2c35db pfn=5774691 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182516: mm_page_free: page=0000000097d960f5 pfn=6384883 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182516: mm_page_free: page=00000000e7f8f191 pfn=2351827 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182516: mm_page_free: page=00000000c6e83403 pfn=6597508 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182516: mm_page_free: page=0000000061b8d9c3 pfn=3014876 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182516: mm_page_free: page=00000000c25788ea pfn=1860057 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182516: mm_page_free: page=000000006191fc99 pfn=5790159 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182516: mm_page_free: page=00000000803c09da pfn=3224315 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182516: mm_page_free: page=0000000091c81657 pfn=1867410 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182516: mm_page_free: page=000000009e22d3c3 pfn=1809833 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182517: mm_page_free: page=0000000007b7bf88 pfn=2216978 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182517: mm_page_free: page=000000009639ff44 pfn=6226643 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182517: mm_page_free: page=000000000aa462c7 pfn=2351983 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182517: mm_page_free: page=00000000f31bc93f pfn=1599850 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182517: mm_page_free: page=000000000afa3712 pfn=3223207 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182517: mm_page_free: page=00000000336a2361 pfn=1607848 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182517: mm_page_free: page=00000000411f2bea pfn=1959997 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182518: mm_page_free: page=0000000056a01b7d pfn=5582439 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182518: mm_page_free: page=0000000060058f24 pfn=2725562 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182518: mm_page_free: page=00000000e7fcf9b7 pfn=2493930 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182518: mm_page_free: page=000000004c42d633 pfn=2613569 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182518: mm_page_free: page=00000000a20970fd pfn=2881295 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182518: mm_page_free: page=00000000bfe96ae0 pfn=1546070 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182518: mm_page_free: page=000000007d83057e pfn=2196570 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182518: mm_page_free: page=000000000b674aeb pfn=1086657 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182519: mm_page_free: page=000000009fb0360e pfn=1862697 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182519: mm_page_free: page=00000000ae7ad522 pfn=6363790 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182520: mm_page_alloc: page=00000000634295b1 pfn=2581423 order=0 migratetype=0 gfp_flags=GFP_NOWAIT|__GFP_NOWARN
+ TaskSchedulerFo-12458 [003] .... 43473.182522: mm_page_free: page=00000000a914cb74 pfn=2638106 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182522: mm_page_free: page=0000000098380dd7 pfn=2674857 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182522: mm_page_free: page=00000000fc54e397 pfn=1679672 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182522: mm_page_free: page=0000000002514236 pfn=2719766 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182522: mm_page_free: page=0000000039b8f056 pfn=6277104 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182523: mm_page_free: page=0000000054bf44ad pfn=5650425 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182523: mm_page_free: page=0000000010c9f7d0 pfn=2657429 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182523: mm_page_free: page=000000006d7f7b4a pfn=3163494 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182523: mm_page_free: page=00000000c9d4ef50 pfn=3152247 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182523: mm_page_free: page=000000002364e2df pfn=2034002 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182523: mm_page_free: page=00000000410f7899 pfn=5713887 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182523: mm_page_free: page=000000001f7d0294 pfn=1922140 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182523: mm_page_free: page=000000008cd4784e pfn=2224962 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182523: mm_page_free: page=000000005b46bc97 pfn=6276129 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182523: mm_page_free: page=00000000d81c9fad pfn=1357586 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182524: mm_page_free: page=00000000f3b354a7 pfn=3223340 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182524: mm_page_free: page=0000000006423465 pfn=5705133 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182525: mm_page_free: page=000000008fa05692 pfn=6048923 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182525: mm_page_free: page=00000000a00e9540 pfn=2054032 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182525: mm_page_free: page=0000000033a8d2db pfn=5856346 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182525: mm_page_free: page=000000008cd36c53 pfn=1294085 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182525: mm_page_free: page=000000002c1e56c2 pfn=2001573 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182525: mm_page_free: page=00000000d3990d76 pfn=3034691 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182525: mm_page_free: page=0000000015038ad0 pfn=6588729 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182525: mm_page_free: page=000000001c184233 pfn=2632160 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182525: mm_page_free: page=000000008b170119 pfn=2555703 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182525: mm_page_free: page=0000000076e2dbae pfn=6629475 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182525: mm_page_free: page=000000006ff5ea76 pfn=1513496 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182525: mm_page_free: page=0000000061620bf4 pfn=5951073 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182526: mm_page_free: page=00000000c3c88a6e pfn=2024089 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182526: mm_page_free: page=00000000b4b0f98b pfn=2611094 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182526: mm_page_free: page=00000000cd736095 pfn=2387014 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182526: mm_page_free: page=000000008bcdb09b pfn=5970361 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182526: mm_page_free: page=000000009c683127 pfn=2557578 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182526: mm_page_free: page=000000007e062e09 pfn=2867417 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182526: mm_page_free: page=00000000d345b3e8 pfn=2833078 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182526: mm_page_free: page=000000002c5a4b9b pfn=1903124 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182526: mm_page_free: page=000000003bf61874 pfn=5710860 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182526: mm_page_free: page=000000008632dfe3 pfn=5602831 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182526: mm_page_free: page=0000000041ce88e4 pfn=2842323 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182526: mm_page_free: page=00000000d0d7dbb5 pfn=6427878 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182526: mm_page_free: page=000000007d0d7132 pfn=6267668 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182527: mm_page_free: page=00000000e79b2518 pfn=2047293 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182527: mm_page_free: page=00000000db7e4279 pfn=1934845 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182527: mm_page_free: page=00000000c64d9191 pfn=2339530 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182527: mm_page_free: page=0000000001086eef pfn=6521509 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182527: mm_page_free: page=00000000f949a58a pfn=5970586 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182527: mm_page_free: page=00000000b189db80 pfn=3004290 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182527: mm_page_free: page=00000000dd9a71fd pfn=2660628 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182527: mm_page_free: page=0000000005f137e5 pfn=5658551 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182527: mm_page_free: page=00000000de291803 pfn=2639918 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182527: mm_page_free: page=0000000045167c4e pfn=5646182 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182527: mm_page_free: page=00000000799a7fa4 pfn=6347454 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182527: mm_page_free: page=00000000e7665b14 pfn=2663224 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182527: mm_page_free: page=000000001c2b6d2b pfn=2499433 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182527: mm_page_free: page=000000007f523e34 pfn=1599900 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182528: mm_page_free: page=00000000d274b636 pfn=2905862 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182528: mm_page_free: page=0000000012c1770f pfn=1742072 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182528: mm_page_free: page=0000000013d4c8b7 pfn=2847013 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182528: mm_page_free: page=00000000dfb2ae04 pfn=2367139 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182528: mm_page_free: page=0000000026e8dd14 pfn=3014973 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182528: mm_page_free: page=0000000015138fff pfn=1965233 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182528: mm_page_free: page=000000008192b292 pfn=1922100 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182528: mm_page_free: page=000000006632c55f pfn=1260490 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182528: mm_page_free: page=00000000ba6fd66e pfn=1502578 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182528: mm_page_free: page=000000002b2ec4e2 pfn=1170002 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182528: mm_page_free: page=000000003fc709b3 pfn=1545153 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182528: mm_page_free: page=00000000cb1c94de pfn=3253409 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182528: mm_page_free: page=00000000a0a8a125 pfn=3034259 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182529: mm_page_free: page=00000000f4d5c04e pfn=3250191 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182529: mm_page_free: page=00000000ce970111 pfn=2023909 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182529: mm_page_free: page=000000009f17e8af pfn=1798632 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182529: mm_page_free: page=00000000595fb94e pfn=2293048 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182529: mm_page_free: page=00000000aa1e30d5 pfn=5977690 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182529: mm_page_free: page=00000000cd4cdf33 pfn=6040501 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182529: mm_page_free: page=00000000e719f271 pfn=6229422 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182529: mm_page_free: page=000000003e9cde0a pfn=1607210 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182529: mm_page_free: page=00000000f65bfe33 pfn=5701798 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182529: mm_page_free: page=00000000ef5ee3bd pfn=1898578 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182529: mm_page_free: page=000000001402ed70 pfn=1549280 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182529: mm_page_free: page=00000000f946765b pfn=2746188 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182529: mm_page_free: page=0000000091aedbfc pfn=6130757 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182530: mm_page_free: page=000000001c88f4f8 pfn=1322764 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182530: mm_page_free: page=000000001d899149 pfn=1883599 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182530: mm_page_free: page=0000000013180774 pfn=1335030 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182530: mm_page_free: page=0000000049f4f354 pfn=2704511 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182530: mm_page_free: page=0000000008ae2eee pfn=2732022 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182530: mm_page_free: page=00000000cbc5040f pfn=2733897 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182530: mm_page_free: page=0000000062ef48ca pfn=2633278 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182530: mm_page_free: page=00000000c740deb0 pfn=6470591 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182530: mm_page_free: page=000000005aa2e199 pfn=1509804 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182530: mm_page_free: page=00000000f7a4e62e pfn=6042205 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182530: mm_page_free: page=000000009bcb1297 pfn=2465547 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182530: mm_page_free: page=0000000065e1e53e pfn=2731908 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182530: mm_page_free: page=00000000f67a9a2d pfn=1985327 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182530: mm_page_free: page=0000000060708869 pfn=6300720 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182531: mm_page_free: page=000000005cbe703b pfn=2740797 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182531: mm_page_free: page=00000000a58611fd pfn=2734507 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182531: mm_page_free: page=0000000047d8a8bc pfn=6629378 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182531: mm_page_free: page=000000008d991cf2 pfn=6171297 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182531: mm_page_free: page=0000000098b69842 pfn=6057712 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182531: mm_page_free: page=000000001e9c904c pfn=2016484 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182531: mm_page_free: page=0000000030c42f17 pfn=2749061 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182531: mm_page_free: page=000000004ecdec14 pfn=2356223 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182531: mm_page_free: page=00000000dd5f39d1 pfn=5660650 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182531: mm_page_free: page=00000000c683635c pfn=2699980 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182531: mm_page_free: page=0000000028a7e4ff pfn=3004691 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182532: mm_page_free: page=0000000055c8c12c pfn=2901260 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182532: mm_page_free: page=000000005065154e pfn=6019160 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182532: mm_page_free: page=000000002c410f4b pfn=2338871 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182532: mm_page_free: page=00000000a24d9af4 pfn=1754346 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182532: mm_page_free: page=000000009a6b1c6a pfn=1347394 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182532: mm_page_free: page=00000000ec939888 pfn=1481002 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182532: mm_page_free: page=000000007f7e1cd0 pfn=2288548 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182532: mm_page_free: page=00000000be80b536 pfn=2320376 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182532: mm_page_free: page=000000009860bcbd pfn=1470782 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182532: mm_page_free: page=0000000012d7e777 pfn=1250161 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182532: mm_page_free: page=0000000009cddb08 pfn=6185394 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182532: mm_page_free: page=00000000ad6474d8 pfn=1273616 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182532: mm_page_free: page=00000000fe7d03f0 pfn=1464635 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182533: mm_page_free: page=000000000a658502 pfn=2306693 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182533: mm_page_free: page=00000000a8a36745 pfn=2554435 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182533: mm_page_free: page=000000003387c13d pfn=1743571 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182533: mm_page_free: page=000000002dd2e601 pfn=5713079 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182533: mm_page_free: page=0000000037618fb9 pfn=1588539 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182533: mm_page_free: page=00000000328a0494 pfn=2541508 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182533: mm_page_free: page=00000000810b6765 pfn=6191913 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182533: mm_page_free: page=00000000a4c301fa pfn=2109833 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182535: mm_page_free: page=0000000011bc29d1 pfn=6146574 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182535: mm_page_free: page=00000000d84de01c pfn=1095687 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182535: mm_page_free: page=000000003915b773 pfn=6256022 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182535: mm_page_free: page=000000004eae7966 pfn=6288410 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182535: mm_page_free: page=000000003bb12182 pfn=1460675 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182535: mm_page_free: page=0000000084408e1a pfn=3437435 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182535: mm_page_free: page=000000008f63c070 pfn=6575940 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182536: mm_page_free: page=00000000261dc70f pfn=6315081 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182536: mm_page_free: page=000000005462568c pfn=3425997 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182536: mm_page_free: page=00000000fc04d108 pfn=2610507 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182536: mm_page_free: page=0000000067a9e418 pfn=2353681 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182536: mm_page_free: page=0000000035652824 pfn=3281698 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182536: mm_page_free: page=000000001bdf8516 pfn=6422064 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182536: mm_page_free: page=00000000181fbe89 pfn=5661349 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182536: mm_page_free: page=00000000a159f019 pfn=2962467 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182536: mm_page_free: page=000000008e07a232 pfn=1090980 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182536: mm_page_free: page=00000000da838168 pfn=6152909 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182536: mm_page_free: page=00000000ef89fe18 pfn=6623789 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182536: mm_page_free: page=000000003f63f172 pfn=6045894 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182536: mm_page_free: page=0000000094e22105 pfn=2635741 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182537: mm_page_free: page=0000000050c21e17 pfn=1506191 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182540: mm_page_free: page=00000000384b00a8 pfn=2887920 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182547: mm_page_free: page=00000000102e1fb3 pfn=6426826 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182552: mm_page_alloc: page=00000000102e1fb3 pfn=6426826 order=0 migratetype=0 gfp_flags=GFP_NOWAIT|__GFP_NOWARN
+ TaskSchedulerFo-11726 [000] .... 43473.182554: mm_page_free: page=00000000634295b1 pfn=2581423 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182554: mm_page_free: page=0000000060c00d18 pfn=1679674 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182554: mm_page_free: page=00000000d7802caf pfn=1917308 order=0
+ TaskSchedulerFo-12458 [003] .... 43473.182554: mm_page_free: page=0000000064bb7fbd pfn=1867063 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182564: mm_page_free: page=00000000e1ad3d15 pfn=3233796 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182564: mm_page_free: page=000000001714d45d pfn=6499136 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182564: mm_page_free: page=00000000601c4309 pfn=2343015 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182564: mm_page_free: page=00000000eebf96e0 pfn=6230199 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182564: mm_page_free: page=0000000091cd85ca pfn=1566262 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182564: mm_page_free: page=000000002756b77f pfn=1860849 order=0
+ TaskSchedulerFo-11726 [000] .... 43473.182565: mm_page_free: page=00000000c7c44687 pfn=6236247 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182565: mm_page_free: page=00000000ba59b470 pfn=2379280 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182565: mm_page_free: page=0000000085fee94c pfn=1556792 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182565: mm_page_free: page=000000003ccf786c pfn=3012380 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182565: mm_page_free: page=00000000c4e9c3e4 pfn=1745069 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182567: mm_page_free: page=000000003dbda390 pfn=5765363 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182567: mm_page_free: page=00000000ab26056a pfn=2219203 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182567: mm_page_free: page=000000003ae9e646 pfn=6315876 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182567: mm_page_free: page=000000007ca4bd44 pfn=2056196 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182567: mm_page_free: page=00000000f58007e8 pfn=2529215 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182567: mm_page_free: page=0000000037be968a pfn=1989013 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182568: mm_page_free: page=00000000312eff53 pfn=5807558 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182568: mm_page_free: page=0000000005aac92e pfn=1534007 order=0
+ TaskSchedulerFo-12069 [006] .... 43473.182568: mm_page_free: page=00000000102e1fb3 pfn=6426826 order=0
+            main-12492 [002] .... 43473.184051: mm_page_alloc: page=00000000ef82189e pfn=2828726 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.184053: mm_page_alloc: page=00000000cdab4d91 pfn=1861194 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.184054: mm_page_alloc: page=0000000036714519 pfn=2216705 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.184056: mm_page_alloc: page=00000000913c1b55 pfn=1125752 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11505 [000] .... 43473.184243: mm_page_alloc: page=00000000c7c44687 pfn=6236247 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11505 [000] .... 43473.184258: mm_page_free: page=00000000c7c44687 pfn=6236247 order=0
+            code-11480 [003] .... 43473.235155: mm_page_alloc: page=0000000064bb7fbd pfn=1867063 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11480 [003] .... 43473.235161: mm_page_free: page=0000000064bb7fbd pfn=1867063 order=0
+            main-12492 [002] .... 43473.237300: mm_page_alloc: page=000000006905a8c7 pfn=6076448 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.237303: mm_page_alloc: page=00000000ff199423 pfn=2035255 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.237304: mm_page_alloc: page=00000000f1a78f88 pfn=3015222 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.237306: mm_page_alloc: page=000000007dc17bd0 pfn=1900195 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11507 [007] .... 43473.237452: mm_page_alloc: page=00000000ae6224fd pfn=2155514 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11507 [007] .... 43473.237472: mm_page_free: page=00000000ae6224fd pfn=2155514 order=0
+     openconnect-10127 [001] .... 43473.248591: mm_page_free: page=00000000694991a1 pfn=1976337 order=0
+            code-11480 [003] .... 43473.287241: mm_page_alloc: page=0000000064bb7fbd pfn=1867063 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11480 [003] .... 43473.287248: mm_page_free: page=0000000064bb7fbd pfn=1867063 order=0
+            main-12492 [002] .... 43473.290273: mm_page_alloc: page=00000000c0c82514 pfn=2238322 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+            main-12492 [002] .... 43473.290273: mm_page_alloc: page=000000009642a0b9 pfn=2086163 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.290276: mm_page_alloc: page=00000000659429c7 pfn=1937292 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.290277: mm_page_alloc: page=000000006f860c5b pfn=2955012 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.290278: mm_page_alloc: page=0000000046b4b16c pfn=6045405 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43473.290491: mm_page_alloc: page=0000000064bb7fbd pfn=1867063 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43473.290499: mm_page_alloc: page=00000000d7802caf pfn=1917308 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43473.290501: mm_page_alloc: page=0000000060c00d18 pfn=1679674 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43473.290508: mm_page_alloc: page=00000000fe7d03f0 pfn=1464635 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43473.290521: mm_page_alloc: page=00000000ad6474d8 pfn=1273616 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43473.290524: mm_page_alloc: page=0000000009cddb08 pfn=6185394 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43473.290530: mm_page_alloc: page=0000000012d7e777 pfn=1250161 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43473.290532: mm_page_alloc: page=000000009860bcbd pfn=1470782 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43473.290535: mm_page_alloc: page=00000000be80b536 pfn=2320376 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43473.290538: mm_page_alloc: page=000000007f7e1cd0 pfn=2288548 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43473.290541: mm_page_alloc: page=00000000ec939888 pfn=1481002 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43473.290544: mm_page_alloc: page=000000009a6b1c6a pfn=1347394 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43473.290551: mm_page_alloc: page=00000000a24d9af4 pfn=1754346 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43473.290558: mm_page_alloc: page=000000002c410f4b pfn=2338871 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43473.290561: mm_page_alloc: page=000000005065154e pfn=6019160 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43473.290565: mm_page_alloc: page=0000000055c8c12c pfn=2901260 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43473.290570: mm_page_alloc: page=0000000028a7e4ff pfn=3004691 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11489 [003] .... 43473.290578: mm_page_alloc: page=00000000c683635c pfn=2699980 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11506 [006] .... 43473.290703: mm_page_alloc: page=0000000005aac92e pfn=1534007 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11496 [005] .... 43473.290705: mm_page_free: page=00000000a080b3fd pfn=6236097 order=0
+            code-11496 [005] .... 43473.290705: mm_page_free: page=00000000f9bd935f pfn=1512870 order=0
+            code-11496 [005] .... 43473.290705: mm_page_free: page=00000000b896ee81 pfn=6121028 order=0
+            code-11496 [005] .... 43473.290705: mm_page_free: page=000000001329156c pfn=2382672 order=0
+            code-11496 [005] .... 43473.290706: mm_page_free: page=000000001922cc82 pfn=5713667 order=0
+            code-11506 [006] .... 43473.290728: mm_page_free: page=0000000005aac92e pfn=1534007 order=0
+     openconnect-10127 [001] .... 43473.300235: mm_page_free: page=000000001bbe68a5 pfn=1630553 order=0
+            code-11480 [003] .... 43473.341768: mm_page_alloc: page=00000000dd5f39d1 pfn=5660650 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11480 [003] .... 43473.341774: mm_page_free: page=00000000dd5f39d1 pfn=5660650 order=0
+            main-12492 [002] .... 43473.343688: mm_page_alloc: page=00000000cfa5f083 pfn=1545205 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.343690: mm_page_alloc: page=00000000d9bf610c pfn=1607228 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.343692: mm_page_alloc: page=0000000026fdbf0f pfn=1841264 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.343693: mm_page_alloc: page=00000000049b1c6e pfn=1880231 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            main-12492 [002] .... 43473.343750: mm_page_alloc: page=00000000cc4b5c67 pfn=1434641 order=0 migratetype=0 gfp_flags=GFP_NOWAIT|__GFP_NOWARN
+            main-12492 [002] .... 43473.343781: mm_page_alloc: page=00000000d7b93fd5 pfn=1804607 order=0 migratetype=0 gfp_flags=GFP_NOWAIT|__GFP_NOWARN
+            main-12492 [002] .... 43473.343815: mm_page_free: page=00000000426d5ed4 pfn=1957631 order=0
+            main-12492 [002] .... 43473.343816: mm_page_free: page=00000000ba2303a7 pfn=2463910 order=0
+            main-12492 [002] .... 43473.343816: mm_page_free: page=000000002ec23f0a pfn=5878985 order=0
+            main-12492 [002] .... 43473.343816: mm_page_free: page=000000006b7dfe6e pfn=2717018 order=0
+            main-12492 [002] .... 43473.343816: mm_page_free: page=00000000e1e9efb5 pfn=6203861 order=0
+            main-12492 [002] .... 43473.343822: mm_page_free: page=0000000024a70888 pfn=1606500 order=0
+            main-12492 [002] .... 43473.343822: mm_page_free: page=00000000c1498af3 pfn=6318051 order=0
+            main-12492 [002] .... 43473.343822: mm_page_free: page=00000000fcdf145d pfn=6394328 order=0
+            main-12492 [002] .... 43473.343822: mm_page_free: page=0000000036a584a1 pfn=2081063 order=0
+            main-12492 [002] .... 43473.343822: mm_page_free: page=000000001a1e020c pfn=3116449 order=0
+            main-12492 [002] .... 43473.343823: mm_page_free: page=000000004a25c642 pfn=2991843 order=0
+            main-12492 [002] .... 43473.343823: mm_page_free: page=00000000af27295c pfn=1297022 order=0
+            main-12492 [002] .... 43473.343823: mm_page_free: page=000000001b8df563 pfn=1436505 order=0
+            main-12492 [002] .... 43473.343823: mm_page_free: page=00000000513c0ebf pfn=1336002 order=0
+            main-12492 [002] .... 43473.343823: mm_page_free: page=000000008cc6a365 pfn=5667252 order=0
+            main-12492 [002] .... 43473.343823: mm_page_free: page=0000000087dfb16a pfn=1494219 order=0
+            main-12492 [002] .... 43473.343823: mm_page_free: page=00000000113add7a pfn=6246548 order=0
+            main-12492 [002] .... 43473.343823: mm_page_free: page=00000000bba52b65 pfn=1683469 order=0
+            main-12492 [002] .... 43473.343823: mm_page_free: page=00000000cbf20dc8 pfn=5703511 order=0
+            main-12492 [002] .... 43473.343823: mm_page_free: page=00000000b8a22f2c pfn=2282920 order=0
+            main-12492 [002] .... 43473.343824: mm_page_free: page=00000000c609954b pfn=2278752 order=0
+            main-12492 [002] .... 43473.343832: mm_page_free: page=0000000003344ade pfn=1644230 order=0
+            main-12492 [002] .... 43473.343832: mm_page_free: page=0000000036e38afe pfn=6405537 order=0
+            main-12492 [002] .... 43473.343832: mm_page_free: page=000000006383ab7c pfn=1802636 order=0
+            main-12492 [002] .... 43473.343832: mm_page_free: page=00000000f6965c1a pfn=6336077 order=0
+            main-12492 [002] .... 43473.343832: mm_page_free: page=0000000023c34ba8 pfn=6168958 order=0
+            main-12492 [002] .... 43473.343832: mm_page_free: page=000000003f89dacc pfn=6427243 order=0
+            main-12492 [002] .... 43473.343832: mm_page_free: page=00000000c0c82514 pfn=2238322 order=0
+            main-12492 [002] .... 43473.343832: mm_page_free: page=0000000035e0b717 pfn=1632175 order=0
+            main-12492 [002] .... 43473.343832: mm_page_free: page=00000000a4466cf4 pfn=2130817 order=0
+            main-12492 [002] .... 43473.343832: mm_page_free: page=00000000d86dc07a pfn=6349272 order=0
+            main-12492 [002] .... 43473.343832: mm_page_free: page=00000000ddb50ebc pfn=1635297 order=0
+            main-12492 [002] .... 43473.343832: mm_page_free: page=00000000ab5e8ccf pfn=2406160 order=0
+            main-12492 [002] .... 43473.343833: mm_page_free: page=00000000fda1e54d pfn=2469791 order=0
+            main-12492 [002] .... 43473.343833: mm_page_free: page=0000000095463546 pfn=6602220 order=0
+            main-12492 [002] .... 43473.343833: mm_page_free: page=0000000000179f7d pfn=6141969 order=0
+            main-12492 [002] .... 43473.343833: mm_page_free: page=000000003efd432c pfn=1650584 order=0
+            main-12492 [002] .... 43473.343833: mm_page_free: page=00000000df3668eb pfn=6602748 order=0
+            main-12492 [002] .... 43473.343833: mm_page_free: page=000000001ef44105 pfn=2905169 order=0
+            main-12492 [002] .... 43473.343833: mm_page_free: page=000000007d56c4cc pfn=2217008 order=0
+            main-12492 [002] .... 43473.343833: mm_page_free: page=00000000d5b8dccd pfn=3224973 order=0
+            main-12492 [002] .... 43473.343833: mm_page_free: page=000000005052aa8b pfn=2696525 order=0
+            main-12492 [002] .... 43473.343833: mm_page_free: page=0000000027d66fec pfn=2286922 order=0
+            main-12492 [002] .... 43473.343833: mm_page_free: page=00000000a542bb3c pfn=1808207 order=0
+            main-12492 [002] .... 43473.343834: mm_page_free: page=00000000327468b0 pfn=3077407 order=0
+            main-12492 [002] .... 43473.343834: mm_page_free: page=00000000cb9f804d pfn=2016832 order=0
+            main-12492 [002] .... 43473.343834: mm_page_free: page=00000000fd88324a pfn=2984841 order=0
+            main-12492 [002] .... 43473.343834: mm_page_free: page=00000000ec04df00 pfn=1345493 order=0
+            main-12492 [002] .... 43473.343834: mm_page_free: page=00000000ebb99490 pfn=2544239 order=0
+            main-12492 [002] .... 43473.343834: mm_page_free: page=00000000df1a9d26 pfn=2747836 order=0
+            main-12492 [002] .... 43473.343834: mm_page_free: page=000000000264ae8e pfn=1628846 order=0
+            main-12492 [002] .... 43473.343834: mm_page_free: page=000000009613b8e0 pfn=1925601 order=0
+            main-12492 [002] .... 43473.343834: mm_page_free: page=00000000394ce3e0 pfn=6287171 order=0
+            main-12492 [002] .... 43473.343834: mm_page_free: page=00000000d7c995c3 pfn=1301065 order=0
+            main-12492 [002] .... 43473.343834: mm_page_free: page=0000000065d620ca pfn=1822368 order=0
+            main-12492 [002] .... 43473.343834: mm_page_free: page=0000000018ec8744 pfn=5744207 order=0
+            main-12492 [002] .... 43473.343834: mm_page_free: page=00000000fb5ae3e3 pfn=1314568 order=0
+            main-12492 [002] .... 43473.343834: mm_page_free: page=00000000f6acb59b pfn=1997986 order=0
+            main-12492 [002] .... 43473.343835: mm_page_free: page=00000000a9d186c1 pfn=5657672 order=0
+            main-12492 [002] .... 43473.343835: mm_page_free: page=000000006b5cc1cf pfn=1661439 order=0
+            main-12492 [002] .... 43473.343835: mm_page_free: page=000000009970769a pfn=2116469 order=0
+            main-12492 [002] .... 43473.343835: mm_page_free: page=00000000a2d265c8 pfn=1089499 order=0
+            main-12492 [002] .... 43473.343835: mm_page_free: page=000000000ec46517 pfn=6486173 order=0
+            main-12492 [002] .... 43473.343835: mm_page_free: page=00000000b1967f5b pfn=6172971 order=0
+            main-12492 [002] .... 43473.343835: mm_page_free: page=00000000b6d79643 pfn=2043209 order=0
+            main-12492 [002] .... 43473.343835: mm_page_free: page=00000000d162b32f pfn=2158376 order=0
+            main-12492 [002] .... 43473.343835: mm_page_free: page=00000000a382521c pfn=2426214 order=0
+            main-12492 [002] .... 43473.343835: mm_page_free: page=000000002c6f30fb pfn=1899301 order=0
+            main-12492 [002] .... 43473.343835: mm_page_free: page=000000008607034d pfn=3321176 order=0
+            main-12492 [002] .... 43473.343835: mm_page_free: page=000000004aead7ea pfn=2509883 order=0
+            main-12492 [002] .... 43473.343836: mm_page_free: page=00000000ef82189e pfn=2828726 order=0
+            main-12492 [002] .... 43473.343836: mm_page_free: page=00000000cdab4d91 pfn=1861194 order=0
+            main-12492 [002] .... 43473.343836: mm_page_free: page=0000000036714519 pfn=2216705 order=0
+            main-12492 [002] .... 43473.343836: mm_page_free: page=00000000913c1b55 pfn=1125752 order=0
+            main-12492 [002] .... 43473.343836: mm_page_free: page=000000006905a8c7 pfn=6076448 order=0
+            main-12492 [002] .... 43473.343836: mm_page_free: page=00000000ff199423 pfn=2035255 order=0
+            main-12492 [002] .... 43473.343836: mm_page_free: page=00000000f1a78f88 pfn=3015222 order=0
+            main-12492 [002] .... 43473.343836: mm_page_free: page=000000007dc17bd0 pfn=1900195 order=0
+            main-12492 [002] .... 43473.343836: mm_page_free: page=000000009642a0b9 pfn=2086163 order=0
+            main-12492 [002] .... 43473.343836: mm_page_free: page=00000000659429c7 pfn=1937292 order=0
+            main-12492 [002] .... 43473.343836: mm_page_free: page=000000006f860c5b pfn=2955012 order=0
+            main-12492 [002] .... 43473.343836: mm_page_free: page=0000000046b4b16c pfn=6045405 order=0
+            main-12492 [002] .... 43473.343836: mm_page_free: page=00000000cfa5f083 pfn=1545205 order=0
+            main-12492 [002] .... 43473.343837: mm_page_free: page=00000000d9bf610c pfn=1607228 order=0
+            main-12492 [002] .... 43473.343837: mm_page_free: page=0000000026fdbf0f pfn=1841264 order=0
+            main-12492 [002] .... 43473.343837: mm_page_free: page=00000000049b1c6e pfn=1880231 order=0
+            main-12492 [002] .... 43473.343837: mm_page_free: page=000000003d152e54 pfn=5765250 order=0
+            main-12492 [002] .... 43473.343837: mm_page_free: page=000000000d9c40e7 pfn=1238573 order=0
+            main-12492 [002] .... 43473.343837: mm_page_free: page=000000005030eedf pfn=6383474 order=0
+            main-12492 [002] .... 43473.343837: mm_page_free: page=00000000f4ac38a0 pfn=2000412 order=0
+            main-12492 [002] .... 43473.343837: mm_page_free: page=000000000e92af61 pfn=1841677 order=0
+            main-12492 [002] .... 43473.343837: mm_page_free: page=00000000a314df5e pfn=2534181 order=0
+            main-12492 [002] .... 43473.343837: mm_page_free: page=00000000b57f8226 pfn=1839286 order=0
+            main-12492 [002] .... 43473.343837: mm_page_free: page=0000000063a7bcf9 pfn=1995671 order=0
+            main-12492 [002] .... 43473.343838: mm_page_free: page=00000000ccbf25ee pfn=1334695 order=0
+            main-12492 [002] .... 43473.343838: mm_page_free: page=00000000be71ace9 pfn=2477171 order=0
+            main-12492 [002] .... 43473.343838: mm_page_free: page=00000000ec33499f pfn=5651097 order=0
+            main-12492 [002] .... 43473.343838: mm_page_free: page=000000006933f8cd pfn=1955716 order=0
+            main-12492 [002] .... 43473.343838: mm_page_free: page=00000000a25fcde1 pfn=5647259 order=0
+            main-12492 [002] .... 43473.343838: mm_page_free: page=000000008ab2909a pfn=3036722 order=0
+            main-12492 [002] .... 43473.343838: mm_page_free: page=000000001d697631 pfn=5582074 order=0
+            main-12492 [002] .... 43473.343838: mm_page_free: page=00000000cbe7dfbf pfn=5571625 order=0
+            main-12492 [002] .... 43473.343838: mm_page_free: page=0000000092bb8936 pfn=3421528 order=0
+            main-12492 [002] .... 43473.343838: mm_page_free: page=000000007595f4c1 pfn=1179683 order=0
+            main-12492 [002] .... 43473.343838: mm_page_free: page=00000000ace536bf pfn=1855434 order=0
+            main-12492 [002] .... 43473.343838: mm_page_free: page=00000000806399b2 pfn=2319568 order=0
+            main-12492 [002] .... 43473.343838: mm_page_free: page=00000000e77a0237 pfn=6582033 order=0
+            main-12492 [002] .... 43473.343839: mm_page_free: page=000000005bea791e pfn=1628357 order=0
+            main-12492 [002] .... 43473.343839: mm_page_free: page=000000007b1c39d7 pfn=2013843 order=0
+            main-12492 [002] .... 43473.343839: mm_page_free: page=000000007e0d430e pfn=2932920 order=0
+            main-12492 [002] .... 43473.343839: mm_page_free: page=00000000a2088d5b pfn=1233387 order=0
+            main-12492 [002] .... 43473.343839: mm_page_free: page=00000000f0d85fae pfn=3247670 order=0
+            main-12492 [002] .... 43473.343840: mm_page_free: page=00000000cc4b5c67 pfn=1434641 order=0
+            main-12492 [002] .... 43473.343840: mm_page_free: page=00000000d7b93fd5 pfn=1804607 order=0
+            code-11507 [007] .... 43473.343843: mm_page_alloc: page=00000000ae6224fd pfn=2155514 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11507 [007] .... 43473.343865: mm_page_free: page=00000000ae6224fd pfn=2155514 order=0
+   kworker/u16:8-25051 [005] .... 43473.343921: mm_page_alloc: page=000000002612d5b2 pfn=2172159 order=0 migratetype=0 gfp_flags=GFP_NOWAIT|__GFP_HIGHMEM|__GFP_NOWARN|__GFP_NORETRY|__GFP_NOMEMALLOC
+        run.bash-12490 [001] .... 43473.344006: mm_page_alloc: page=000000001bbe68a5 pfn=1630553 order=0 migratetype=0 gfp_flags=GFP_KERNEL|__GFP_HIGHMEM|__GFP_NOWARN|__GFP_ZERO
+        run.bash-12490 [001] .... 43473.344006: mm_page_alloc: page=00000000694991a1 pfn=1976337 order=0 migratetype=0 gfp_flags=GFP_KERNEL|__GFP_HIGHMEM|__GFP_NOWARN|__GFP_ZERO
+        run.bash-12490 [001] .... 43473.344007: mm_page_alloc: page=0000000099c19d67 pfn=6290661 order=0 migratetype=0 gfp_flags=GFP_KERNEL|__GFP_HIGHMEM|__GFP_NOWARN|__GFP_ZERO
+        run.bash-12490 [001] .... 43473.344007: mm_page_alloc: page=00000000983cfac7 pfn=1726205 order=0 migratetype=0 gfp_flags=GFP_KERNEL|__GFP_HIGHMEM|__GFP_NOWARN|__GFP_ZERO
+        run.bash-12490 [001] .... 43473.344021: mm_page_alloc: page=00000000a9a144db pfn=6567806 order=1 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43473.344026: mm_page_alloc: page=00000000117e966a pfn=2258693 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43473.344026: mm_page_alloc: page=000000006262212c pfn=5581192 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43473.344027: mm_page_alloc: page=0000000035ec762a pfn=1645512 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43473.344031: mm_page_alloc: page=00000000779cba55 pfn=2407054 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43473.344035: mm_page_alloc: page=0000000049c11c53 pfn=6567212 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43473.344035: mm_page_alloc: page=00000000409f0ceb pfn=6619934 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43473.344036: mm_page_alloc: page=00000000f34f6725 pfn=5991619 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43473.344038: mm_page_alloc: page=000000008f1f26d3 pfn=1065477 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43473.344049: mm_page_alloc: page=00000000154f9843 pfn=1979115 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43473.344049: mm_page_alloc: page=000000001f2268d2 pfn=5665052 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43473.344050: mm_page_alloc: page=0000000059922e0a pfn=1054137 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+        run.bash-12490 [001] .... 43473.344062: mm_page_alloc: page=000000007880d7cc pfn=2671029 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43473.344065: mm_page_alloc: page=000000001ee5baa9 pfn=2524527 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43473.344067: mm_page_alloc: page=00000000e19acfcf pfn=1972807 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43473.344069: mm_page_alloc: page=00000000b2463c13 pfn=2499749 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43473.344071: mm_page_alloc: page=0000000058edaea3 pfn=5647318 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43473.344073: mm_page_alloc: page=000000001b8e8787 pfn=2535757 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43473.344075: mm_page_alloc: page=00000000b773a638 pfn=5570882 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43473.344078: mm_page_alloc: page=00000000c991f710 pfn=5666506 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43473.344080: mm_page_alloc: page=000000009a5518fc pfn=2007303 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43473.344081: mm_page_alloc: page=000000001cf479b2 pfn=6222854 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43473.344083: mm_page_alloc: page=000000006d4635a3 pfn=2317114 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43473.344085: mm_page_alloc: page=0000000054e19822 pfn=2281681 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43473.344087: mm_page_alloc: page=000000005d144241 pfn=1907068 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43473.344094: mm_page_alloc: page=000000006601f6dc pfn=1544433 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+        run.bash-12490 [001] .... 43473.344097: mm_page_free: page=00000000ffe61a0a pfn=2669847 order=0
+        run.bash-12490 [001] .... 43473.344098: mm_page_alloc: page=00000000ffe61a0a pfn=2669847 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12493 [001] .... 43473.344112: mm_page_alloc: page=00000000655d737d pfn=1808552 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12493 [001] .... 43473.344118: mm_page_alloc: page=00000000c4b64d7d pfn=3217871 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12493 [001] .... 43473.344135: mm_page_alloc: page=00000000d5eef7d4 pfn=6202892 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12493 [001] .... 43473.344151: mm_page_alloc: page=00000000ec24beda pfn=1354486 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12493 [001] .... 43473.344171: mm_page_alloc: page=0000000017f3d7c5 pfn=1062776 order=1 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344207: mm_page_alloc: page=00000000aea6ffe3 pfn=1127542 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344207: mm_page_alloc: page=00000000142120d6 pfn=6405705 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344208: mm_page_alloc: page=000000001f86da55 pfn=1659748 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344209: mm_page_alloc: page=00000000beeca42b pfn=6179062 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344224: mm_page_alloc: page=0000000004fa5e53 pfn=3173906 order=0 migratetype=0 gfp_flags=GFP_NOWAIT|__GFP_NOWARN
+           sleep-12493 [001] .... 43473.344246: mm_page_free: page=00000000154f9843 pfn=1979115 order=0
+           sleep-12493 [001] .... 43473.344246: mm_page_free: page=000000001f2268d2 pfn=5665052 order=0
+           sleep-12493 [001] .... 43473.344246: mm_page_free: page=0000000059922e0a pfn=1054137 order=0
+           sleep-12493 [001] .... 43473.344246: mm_page_free: page=0000000049c11c53 pfn=6567212 order=0
+           sleep-12493 [001] .... 43473.344246: mm_page_free: page=00000000409f0ceb pfn=6619934 order=0
+           sleep-12493 [001] .... 43473.344246: mm_page_free: page=000000008f1f26d3 pfn=1065477 order=0
+           sleep-12493 [001] .... 43473.344246: mm_page_free: page=00000000f34f6725 pfn=5991619 order=0
+           sleep-12493 [001] .... 43473.344247: mm_page_free: page=00000000117e966a pfn=2258693 order=0
+           sleep-12493 [001] .... 43473.344247: mm_page_free: page=000000006262212c pfn=5581192 order=0
+           sleep-12493 [001] .... 43473.344247: mm_page_free: page=00000000779cba55 pfn=2407054 order=0
+           sleep-12493 [001] .... 43473.344247: mm_page_free: page=0000000035ec762a pfn=1645512 order=0
+           sleep-12493 [001] .... 43473.344247: mm_page_free: page=00000000d284401e pfn=1097254 order=0
+           sleep-12493 [001] .... 43473.344247: mm_page_free: page=00000000e2b38de6 pfn=5571891 order=0
+           sleep-12493 [001] .... 43473.344247: mm_page_free: page=00000000c4b64d7d pfn=3217871 order=0
+           sleep-12493 [001] .... 43473.344247: mm_page_free: page=00000000655d737d pfn=1808552 order=0
+           sleep-12493 [001] .... 43473.344248: mm_page_free: page=00000000fabaf088 pfn=5998868 order=0
+           sleep-12493 [001] .... 43473.344248: mm_page_free: page=000000003f8a7ae7 pfn=3330467 order=0
+           sleep-12493 [001] .... 43473.344248: mm_page_free: page=00000000bcda7250 pfn=6194960 order=0
+           sleep-12493 [001] .... 43473.344248: mm_page_free: page=00000000d8ba2b6c pfn=5082786 order=0
+           sleep-12493 [001] .... 43473.344248: mm_page_free: page=00000000262b370a pfn=2464026 order=0
+           sleep-12493 [001] .... 43473.344248: mm_page_free: page=00000000aed09f56 pfn=5630976 order=0
+           sleep-12493 [001] .... 43473.344248: mm_page_free: page=00000000bb3ff15f pfn=1272218 order=0
+           sleep-12493 [001] .... 43473.344248: mm_page_free: page=00000000d5eef7d4 pfn=6202892 order=0
+           sleep-12493 [001] .... 43473.344248: mm_page_free: page=00000000dcbba7ca pfn=1344175 order=0
+           sleep-12493 [001] .... 43473.344248: mm_page_free: page=00000000ec24beda pfn=1354486 order=0
+           sleep-12493 [001] .... 43473.344248: mm_page_free: page=0000000073e42d0a pfn=1346500 order=0
+           sleep-12493 [001] .... 43473.344249: mm_page_free: page=00000000bd12637f pfn=2809650 order=0
+           sleep-12493 [001] .... 43473.344249: mm_page_free: page=000000009fdb3894 pfn=1318273 order=0
+           sleep-12493 [001] .... 43473.344249: mm_page_free: page=0000000018ff2a2f pfn=6003672 order=0
+           sleep-12493 [001] .... 43473.344249: mm_page_free: page=00000000c9eb250c pfn=6521625 order=0
+           sleep-12493 [001] .... 43473.344249: mm_page_free: page=0000000004fa5e53 pfn=3173906 order=0
+           sleep-12493 [001] .... 43473.344251: mm_page_free: page=00000000a9a144db pfn=6567806 order=1
+           sleep-12493 [001] .... 43473.344257: mm_page_alloc: page=0000000004fa5e53 pfn=3173906 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344257: mm_page_alloc: page=0000000035ec762a pfn=1645512 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344259: mm_page_free: page=00000000142120d6 pfn=6405705 order=0
+           sleep-12493 [001] .... 43473.344259: mm_page_free: page=000000001f86da55 pfn=1659748 order=0
+           sleep-12493 [001] .... 43473.344266: mm_page_alloc: page=000000001f86da55 pfn=1659748 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344266: mm_page_alloc: page=00000000142120d6 pfn=6405705 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344267: mm_page_alloc: page=00000000c9eb250c pfn=6521625 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12493 [001] .... 43473.344267: mm_page_alloc: page=00000000779cba55 pfn=2407054 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344278: mm_page_alloc: page=000000006262212c pfn=5581192 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344278: mm_page_alloc: page=00000000117e966a pfn=2258693 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344279: mm_page_alloc: page=0000000018ff2a2f pfn=6003672 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12493 [001] .... 43473.344279: mm_page_alloc: page=00000000f34f6725 pfn=5991619 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344288: mm_page_alloc: page=000000009fdb3894 pfn=1318273 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12493 [001] .... 43473.344293: mm_page_alloc: page=00000000bd12637f pfn=2809650 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344303: mm_page_alloc: page=0000000073e42d0a pfn=1346500 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344308: mm_page_alloc: page=00000000ec24beda pfn=1354486 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12493 [001] .... 43473.344313: mm_page_alloc: page=00000000dcbba7ca pfn=1344175 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344341: mm_page_alloc: page=00000000d5eef7d4 pfn=6202892 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344361: mm_page_alloc: page=00000000bb3ff15f pfn=1272218 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12493 [001] .... 43473.344367: mm_page_alloc: page=00000000aed09f56 pfn=5630976 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12493 [001] .... 43473.344370: mm_page_alloc: page=000000008f1f26d3 pfn=1065477 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344376: mm_page_alloc: page=00000000262b370a pfn=2464026 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344378: mm_page_alloc: page=00000000d8ba2b6c pfn=5082786 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12493 [001] .... 43473.344381: mm_page_alloc: page=00000000bcda7250 pfn=6194960 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12493 [001] .... 43473.344383: mm_page_alloc: page=000000003f8a7ae7 pfn=3330467 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12493 [001] .... 43473.344387: mm_page_alloc: page=00000000fabaf088 pfn=5998868 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE
+           sleep-12493 [001] .... 43473.344436: mm_page_alloc: page=00000000409f0ceb pfn=6619934 order=0 migratetype=0 gfp_flags=GFP_NOWAIT|__GFP_NOWARN
+           sleep-12493 [001] .... 43473.344441: mm_page_free: page=00000000409f0ceb pfn=6619934 order=0
+           sleep-12493 [001] .... 43473.344446: mm_page_alloc: page=00000000655d737d pfn=1808552 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344447: mm_page_alloc: page=00000000c4b64d7d pfn=3217871 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344483: mm_page_alloc: page=00000000e2b38de6 pfn=5571891 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344487: mm_page_alloc: page=00000000409f0ceb pfn=6619934 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344488: mm_page_alloc: page=00000000d284401e pfn=1097254 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344502: mm_page_alloc: page=0000000049c11c53 pfn=6567212 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344513: mm_page_alloc: page=0000000059922e0a pfn=1054137 order=0 migratetype=0 gfp_flags=GFP_KERNEL_ACCOUNT|__GFP_ZERO
+           sleep-12493 [001] .... 43473.344522: mm_page_alloc: page=000000008bd510b2 pfn=1831439 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+          <idle>-0     [007] d.h. 43473.353462: mm_page_free: page=000000002612d5b2 pfn=2172159 order=0
+          chrome-4721  [002] .... 43473.367026: mm_page_free: page=0000000002dc06a0 pfn=1064626 order=1
+            code-11480 [003] .... 43473.394635: mm_page_alloc: page=00000000dd5f39d1 pfn=5660650 order=0 migratetype=1 gfp_flags=GFP_HIGHUSER_MOVABLE|__GFP_ZERO
+            code-11480 [003] .... 43473.394653: mm_page_free: page=00000000dd5f39d1 pfn=5660650 order=0
+     openconnect-10127 [001] .... 43473.404771: mm_page_free: page=00000000db4b4a6b pfn=2257924 order=0
+ irq/159-iwlwifi-1228  [007] .... 43473.440888: mm_page_free: page=000000005aad3e0f pfn=5958071 order=0
+     openconnect-10127 [001] .... 43473.443984: mm_page_free: page=00000000c532d3f6 pfn=1064672 order=0
+            code-11480 [003] .... 43473.444719: mm_page_free: page=0000000089e61301 pfn=2398492 order=0
+           sleep-12493 [001] .... 43473.444801: mm_page_alloc: page=00000000c532d3f6 pfn=1064672 order=0 migratetype=0 gfp_flags=GFP_NOWAIT|__GFP_NOWARN
+           sleep-12493 [001] .... 43473.444884: mm_page_free: page=00000000aea6ffe3 pfn=1127542 order=0
+           sleep-12493 [001] .... 43473.444885: mm_page_free: page=0000000004fa5e53 pfn=3173906 order=0
+           sleep-12493 [001] .... 43473.444885: mm_page_free: page=0000000035ec762a pfn=1645512 order=0
+           sleep-12493 [001] .... 43473.444886: mm_page_free: page=000000001f86da55 pfn=1659748 order=0
+           sleep-12493 [001] .... 43473.444886: mm_page_free: page=00000000142120d6 pfn=6405705 order=0
+           sleep-12493 [001] .... 43473.444886: mm_page_free: page=00000000409f0ceb pfn=6619934 order=0
+           sleep-12493 [001] .... 43473.444887: mm_page_free: page=00000000779cba55 pfn=2407054 order=0
+           sleep-12493 [001] .... 43473.444887: mm_page_free: page=000000006262212c pfn=5581192 order=0
+           sleep-12493 [001] .... 43473.444887: mm_page_free: page=00000000117e966a pfn=2258693 order=0
+           sleep-12493 [001] .... 43473.444887: mm_page_free: page=00000000f34f6725 pfn=5991619 order=0
+           sleep-12493 [001] .... 43473.444888: mm_page_free: page=000000008f1f26d3 pfn=1065477 order=0
+           sleep-12493 [001] .... 43473.444888: mm_page_free: page=0000000059922e0a pfn=1054137 order=0
+           sleep-12493 [001] .... 43473.444888: mm_page_free: page=0000000049c11c53 pfn=6567212 order=0
+           sleep-12493 [001] .... 43473.444888: mm_page_free: page=00000000beeca42b pfn=6179062 order=0
+           sleep-12493 [001] .... 43473.444889: mm_page_free: page=0000000073e42d0a pfn=1346500 order=0
+           sleep-12493 [001] .... 43473.444889: mm_page_free: page=00000000dcbba7ca pfn=1344175 order=0
+           sleep-12493 [001] .... 43473.444889: mm_page_free: page=000000008bd510b2 pfn=1831439 order=0
+           sleep-12493 [001] .... 43473.444889: mm_page_free: page=00000000d284401e pfn=1097254 order=0
+           sleep-12493 [001] .... 43473.444890: mm_page_free: page=00000000c9eb250c pfn=6521625 order=0
+           sleep-12493 [001] .... 43473.444890: mm_page_free: page=00000000ec24beda pfn=1354486 order=0
+           sleep-12493 [001] .... 43473.444890: mm_page_free: page=00000000bd12637f pfn=2809650 order=0
+           sleep-12493 [001] .... 43473.444890: mm_page_free: page=0000000018ff2a2f pfn=6003672 order=0
+           sleep-12493 [001] .... 43473.444890: mm_page_free: page=000000009fdb3894 pfn=1318273 order=0
+           sleep-12493 [001] .... 43473.444891: mm_page_free: page=00000000262b370a pfn=2464026 order=0
+           sleep-12493 [001] .... 43473.444891: mm_page_free: page=00000000d5eef7d4 pfn=6202892 order=0
+           sleep-12493 [001] .... 43473.444891: mm_page_free: page=00000000655d737d pfn=1808552 order=0
+           sleep-12493 [001] .... 43473.444891: mm_page_free: page=00000000c4b64d7d pfn=3217871 order=0
+           sleep-12493 [001] .... 43473.444891: mm_page_free: page=00000000e2b38de6 pfn=5571891 order=0
+           sleep-12493 [001] .... 43473.444892: mm_page_free: page=00000000bb3ff15f pfn=1272218 order=0
+           sleep-12493 [001] .... 43473.444892: mm_page_free: page=00000000fabaf088 pfn=5998868 order=0
+           sleep-12493 [001] .... 43473.444892: mm_page_free: page=00000000aed09f56 pfn=5630976 order=0
+           sleep-12493 [001] .... 43473.444892: mm_page_free: page=000000003f8a7ae7 pfn=3330467 order=0
+           sleep-12493 [001] .... 43473.444892: mm_page_free: page=00000000bcda7250 pfn=6194960 order=0
+           sleep-12493 [001] .... 43473.444893: mm_page_free: page=00000000d8ba2b6c pfn=5082786 order=0
+           sleep-12493 [001] .... 43473.444894: mm_page_free: page=00000000c532d3f6 pfn=1064672 order=0
